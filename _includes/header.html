@@ -1,11 +1,11 @@
 <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
         <ul>
-            <li><a href="{{ '/' | relative_url }}">홈</a></li>
-            <li><a href="{{ '/about' | relative_url }}">소개</a></li>
-            <li><a href="{{ '/archives' | relative_url }}">아카이브</a></li>
-            <li><a href="{{ '/contact' | relative_url }}">기타</a></li>
+            <li><a href="{{ site.baseurl }}/">홈</a></li>
+            <li><a href="{{ site.baseurl }}/about">소개</a></li>
+            <li><a href="{{ site.baseurl }}/archives">아카이브</a></li>
+            <li><a href="{{ site.baseurl }}/contact">기타</a></li>
         </ul>
     </nav>
 </header>
