@@ -1,0 +1,6 @@
+title: "Jiwon Lee"
+description: "여기는 다양한 텍스트 자료를 보관하는 아카이브입니다."
+baseurl: ""
+url: "https://lfayej.github.io/archives/"
+markdown: kramdown
+theme: minima
