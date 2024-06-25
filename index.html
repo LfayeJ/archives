@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ {{ site.baseurl }}/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    {% include header.html %}
+    <div include-html="header.html"></div>
     <div class="container">
         <header>
             <h1>텍스트 아카이브</h1>
@@ -19,6 +19,6 @@
             <p>최신 업데이트된 텍스트 자료를 확인해보세요.</p>
         </div>
     </div>
-    {% include footer.html %}
+    <div data-include-path="footer.html"></div>
 </body>
 </html>
