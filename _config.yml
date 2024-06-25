@@ -4,3 +4,9 @@ baseurl: "/archives"
 url: "https://lfayej.github.io/archives/"
 markdown: kramdown
 theme: minima
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
