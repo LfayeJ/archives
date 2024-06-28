@@ -1,5 +1,6 @@
 ## 디지털 세대에 주목하는 이유 ⎯The Importance of the Digital Generation
 
+---
 - 글 : 이지원
 
   
