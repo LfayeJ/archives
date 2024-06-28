@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Nanum Gothic Coding", monospace;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -36,7 +36,7 @@ header nav ul li a {
     padding: 20px 0;
 }
 .content h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 .content p {
@@ -47,4 +47,9 @@ footer {
     padding: 20px 0;
     border-top: 1px solid #ddd;
     margin-top: 20px;
+}
+.nanum-gothic-coding-regular {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
