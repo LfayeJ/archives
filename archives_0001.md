@@ -1,7 +1,8 @@
 ## 디지털 세대에 주목하는 이유 ⎯The Importance of the Digital Generation
 
+- 글 : 이지원
 
-
+  
 >_“사람들은 자기 아버지보다 자기 시대를 더 닮았다.”_[^1]
 
 
