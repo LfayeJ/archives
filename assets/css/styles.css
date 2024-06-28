@@ -1,5 +1,5 @@
 body {
-    font-family: "Nanum Gothic Coding", monospace;
+    font-family: "Noto Sans KR", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -48,8 +48,12 @@ footer {
     border-top: 1px solid #ddd;
     margin-top: 20px;
 }
-.nanum-gothic-coding-regular {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 400;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-kr-<uniquifier> {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
