@@ -19,11 +19,52 @@ body {
 }
 
 .container {
+  display: flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.side-menu {
+    width: 200px; /* 사이드메뉴의 너비 */
+    background-color: #f0f0f0; /* 배경색 */
+    padding: 20px; /* 내부 여백 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.side-menu h1 {
+    margin-top: 0; /* 기본 마진 제거 */
+    font-size: 1.5em; /* 제목의 글자 크기 */
+}
+
+.side-menu ul {
+    list-style: none; /* 목록 표시 스타일 제거 */
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 10px; /* 각 항목 사이의 간격 */
+}
+
+.side-menu ul li a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: #333; /* 링크 색상 */
+    display: block; /* 링크를 블록 요소로 설정하여 전체 너비를 차지하도록 함 */
+    padding: 8px 0; /* 링크 내부 여백 */
+    transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
+}
+
+.side-menu ul li a:hover {
+    background-color: #ddd; /* 호버 시 배경색 변경 */
+}
+
+.main-content {
+    flex: 1; /* 남은 공간을 모두 차지하도록 설정 */
+    padding: 20px; /* 주요 컨텐츠의 내부 여백 */
+    background-color: #fff; /* 주요 컨텐츠의 배경색 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
 }
 
 header, footer {
