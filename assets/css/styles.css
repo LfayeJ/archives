@@ -36,7 +36,7 @@ body {
 .side-menu {
   width: 15%; /* 사이드메뉴의 너비 */
   background-color: #f0f0f0; /* 배경색 */
-  padding: 0; /* 내부 여백 */
+  padding: 5px; /* 내부 여백 */
   box-sizing: border-box;
   border-right: 1px solid var(--border-color); /* 사이드메뉴 구분선 */
 }
