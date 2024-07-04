@@ -1,9 +1,18 @@
+.font-face {
+    font-family: "KoreanFrenchTypewriter";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    src: url("../assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
+}
+
 body {
     font-family: "KoreanFrenchTypewriter";
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -11,48 +20,49 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 header {
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
+
 header h1 {
     margin: 0;
     font-size: 2em;
 }
+
 header nav ul {
     list-style: none;
     padding: 0;
 }
+
 header nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: #333;
 }
+
 .content {
     padding: 20px 0;
 }
+
 .content h2 {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
+
 .content p {
     line-height: 1.8;
 }
+
 footer {
     text-align: center;
     padding: 20px 0;
     border-top: 1px solid #ddd;
     margin-top: 20px;
-}
-
-@font-face {
-    font-family: "KoreanFrenchTypewriter";
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    src: url("assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
 }
