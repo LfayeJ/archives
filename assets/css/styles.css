@@ -105,3 +105,39 @@ footer {
   border-top: 1px solid var(--border-color); /* 푸터 구분선 */
   margin-top: 20px;
 }
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 가로 정렬을 세로 정렬로 변경 */
+    width: 100%; /* 전체 너비 사용 */
+  }
+
+  .side-menu {
+    width: 100%; /* 사이드메뉴 너비를 전체 너비로 설정 */
+    border-right: none; /* 오른쪽 구분선 제거 */
+    border-bottom: 1px solid var(--border-color); /* 아래쪽 구분선 추가 */
+  }
+
+  .main-content {
+    width: 100%; /* 주요 컨텐츠 너비를 전체 너비로 설정 */
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em; /* 작은 화면에서 제목 글자 크기 조정 */
+  }
+
+  .side-menu h1 {
+    font-size: 1.2em; /* 작은 화면에서 사이드메뉴 제목 글자 크기 조정 */
+  }
+
+  .content h2 {
+    font-size: 1.2em; /* 작은 화면에서 콘텐츠 제목 글자 크기 조정 */
+  }
+
+  .content p {
+    font-size: 0.9em; /* 작은 화면에서 콘텐츠 글자 크기 조정 */
+  }
+}
