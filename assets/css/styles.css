@@ -1,7 +1,7 @@
 @font-face {
     font-family: "KoreanFrenchTypewriter";
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
     src: url("KoreanFrenchTypewriter.ttf") format("truetype");
 }
