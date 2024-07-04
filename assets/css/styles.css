@@ -30,34 +30,41 @@ header {
 header h1 {
     margin: 0;
     font-size: 2em;
+    transform : rotate(0.04deg); 
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
+    transform : rotate(0.04deg); 
 }
 
 header nav ul li {
     display: inline;
     margin: 0 10px;
+    transform : rotate(0.04deg); 
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #333;
+    transform : rotate(0.04deg); 
 }
 
 .content {
     padding: 20px 0;
+    transform : rotate(0.04deg); 
 }
 
 .content h2 {
     font-size: 1.4em;
     margin-bottom: 10px;
+    transform : rotate(0.04deg); 
 }
 
 .content p {
     line-height: 1.9;
+    transform : rotate(0.04deg); 
 }
 
 footer {
