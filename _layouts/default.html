@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
 </head>
 <body>
-    {% include header.html %}
     <div class="container">
-        {{ content }}
+        <aside class="side-menu">
+            <h1>사이드 메뉴</h1>
+            <ul>
+                <li><a href="#">메뉴 항목 1</a></li>
+                <li><a href="#">메뉴 항목 2</a></li>
+                <li><a href="#">메뉴 항목 3</a></li>
+                <!-- 추가적인 메뉴 항목들 -->
+            </ul>
+        </aside>
+        
+        <main class="main-content">
+            {% include header.html %}
+            {{ content }}
+            {% include footer.html %}
+        </main>
     </div>
-    {% include footer.html %}
 </body>
 </html>
