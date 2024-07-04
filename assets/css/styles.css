@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'SpoqaHanSansNeo-Regular';
+  font-family: 'Orbit-Regular';
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  src: url('SpoqaHanSansNeo-Regular.woff2') format('woff2');
+  src: url('Orbit-Regular.woff2') format('woff2');
 }
 
 body, .container, header, header h1, header nav ul, header nav ul li, header nav ul li a,
@@ -12,7 +12,7 @@ body, .container, header, header h1, header nav ul, header nav ul li, header nav
 }
 
 body {
-  font-family: "SpoqaHanSansNeo-Regular";
+  font-family: "Orbit-Regular";
   margin: 1;
   padding: 0;
   background-color: #f4f4f4;
@@ -20,7 +20,7 @@ body {
 
 .container {
   display: flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
