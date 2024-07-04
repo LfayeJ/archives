@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "KoreanFrenchTypewriter";
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    src: url("KoreanFrenchTypewriter.ttf") format("truetype");
-}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 
 body {
-    font-family: "KoreanFrenchTypewriter";
+    font-family: "SpoqaHanSansNeo";
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
