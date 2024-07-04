@@ -28,7 +28,7 @@ body {
   width: var(--container-width);
   height: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   background-color: #fff;
   box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 크기를 계산 */
   border: 1px solid var(--border-color); /* 컨테이너 구분선 */
@@ -37,7 +37,7 @@ body {
 .side-menu {
   width: 15%; /* 사이드메뉴의 너비 */
   background-color: #f0f0f0; /* 배경색 */
-  padding: 20px; /* 내부 여백 */
+  padding: 0; /* 내부 여백 */
   box-sizing: border-box;
   border-right: 1px solid var(--border-color); /* 사이드메뉴 구분선 */
 }
@@ -77,7 +77,7 @@ body {
 
 header, footer {
   text-align: center;
-  padding: 20px 0;
+  padding: 0;
 }
 
 header {
@@ -90,7 +90,7 @@ header h1 {
 }
 
 .content {
-  padding: 20px 0;
+  padding: 0;
 }
 
 .content h2 {
