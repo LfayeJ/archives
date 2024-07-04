@@ -3,7 +3,7 @@
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-    src: url("../assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
+    src: url("{{ site.baseurl }}/assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
 }
 
 body {
