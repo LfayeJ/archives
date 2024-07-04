@@ -50,9 +50,9 @@ footer {
 }
 
 @font-face {
-  font-family: "KoreanFrenchTypewriter";
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  src: url("@assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
+    font-family: "KoreanFrenchTypewriter";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    src: url("assets/font/KoreanFrenchTypewriter.ttf") format("truetype");
 }
