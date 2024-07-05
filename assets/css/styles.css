@@ -100,12 +100,15 @@ img {
 }
 
 .additional-side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
   width: 15%; /* 기존 사이드바와 동일한 너비 */
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
   padding: 5px; /* 내부 여백 */
   box-sizing: border-box;
-  border-right: 1px solid var(--border-color); /* 우측 구분선 */
+  border-right: 1px solid var(--border-color); /* 구분선 */
 }
 
 .additional-side-menu h1 {
@@ -125,7 +128,8 @@ img {
 .additional-side-menu ul li a {
   text-decoration: none; /* 링크 밑줄 제거 */
   color: #333; /* 링크 색상 */
-  display: block; /* 링크를 블록 요소로 설정하여 전체 너비를 차지하도록 함 */
+  display:flex;
+  align-items: center;
   padding: 8px 0; /* 링크 내부 여백 */
   transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
 }
@@ -133,6 +137,11 @@ img {
 .additional-side-menu ul li a:hover {
   background-color: #ddd; /* 호버 시 배경색 변경 */
   color: #007cb8; /* 호버 시 텍스트 색상 */
+}
+
+.additional-side-menu ul li a i {
+  margin-right: 10px; /* 아이콘과 텍스트 사이의 간격 설정 */
+  font-size: 1.2em; /* 아이콘 크기 설정 */
 }
 
 .main-content {
