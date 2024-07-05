@@ -28,8 +28,6 @@ body {
 
 .container {
   display: flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
-  flex: 1;
-  flex-direction: column;
   width: var(--container-width);
   height: 100%;
   margin: 0;
