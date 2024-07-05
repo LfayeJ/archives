@@ -10,22 +10,51 @@
   --container-width: 85%;
   --border-color: #ddd;
   
-html, body, .container, header, header h1, header nav ul, header nav ul li, header nav ul li a,
-.content, .content h2, .content p, footer {
-  transform: rotate(0.04deg);
-}
-
 body, html {
     min-height: 100vh; /* 화면 전체 높이 */
 }
   
 body {
   font-family: "Orbit-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
 
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}  
+
+.border{
+	border-bottom: 1px solid black;
+}
+
+.border_top{
+	border-top: 1px solid black;
+}
+
+.border_right{
+	border-right: 1px solid black;
+}  
+  
 .markdown-body {
     box-sizing: border-box;
     min-height: 100vh; /* 화면 전체 높이 */
@@ -130,14 +159,6 @@ input[type="text"] {
   font-size: 16px;
 }
 
-a {
-  text-decoration-line: none;
-/*   text-decoration-line: underline; */
-/*   text-decoration-line: overline; */
-/*   text-decoration-line: line-through; */
-/*   text-decoration-line: underline line-through overline; */
-}
-  
 .content {
   padding: 0;
 }
