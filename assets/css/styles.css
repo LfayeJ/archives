@@ -217,6 +217,7 @@ footer {
 
   .side-menu {
     width: 100%;
+    min-height: 30vh;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
