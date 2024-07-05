@@ -7,7 +7,7 @@
 }
 
 :root {
-  --container-width: 93%;
+  --container-width: 95%;
   --border-color: black;
 }
 
@@ -68,7 +68,7 @@ img {
   width: 15%;
   min-height: 100vh;
   background-color: #f0f0f0;
-  padding: 45px;
+  padding: 25px;
   box-sizing: border-box;
   border-right: 1px solid var(--border-color);
 }
@@ -103,10 +103,10 @@ img {
   position: fixed;
   top: 0;
   right: 0;
-  width: 7%; /* 너비 */
+  width: 5%; /* 너비 */
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
-  padding: 45px; /* 내부 여백 */
+  padding: 25px; /* 내부 여백 */
   box-sizing: border-box;
   border-left: 1px solid var(--border-color); /* 구분선 */
 }
@@ -135,13 +135,12 @@ img {
 }
 
 .additional-side-menu ul li a:hover {
-  background-color: #ddd; /* 호버 시 배경색 변경 */
   color: #007cb8; /* 호버 시 텍스트 색상 */
 }
 
 .additional-side-menu ul li a i {
   margin-right: 10px; /* 아이콘과 텍스트 사이의 간격 설정 */
-  font-size: 4em; /* 아이콘 크기 설정 */
+  font-size: 3em; /* 아이콘 크기 설정 */
 }
 
 .main-content {
