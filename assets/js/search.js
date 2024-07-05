@@ -1,9 +1,10 @@
+// search.js
 document.addEventListener("DOMContentLoaded", function() {
     var urlParams = new URLSearchParams(window.location.search);
     var query = urlParams.get('q');
     
     if (query) {
-        document.title = '검색 결과 - ' + query + ' - {{ site.title }}';
+        document.title = '검색 결과 - ' + query;
         search(query);
     }
 });
