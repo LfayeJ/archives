@@ -26,6 +26,13 @@ body {
   background-color: #f4f4f4;
 }
 
+.markdown-body {
+    box-sizing: border-box;
+    min-height: 100vh; /* 화면 전체 높이 */
+    margin: 0 auto;
+    padding: 45px;
+}
+
 .container {
   display: flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
   width: var(--container-width);
