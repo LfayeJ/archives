@@ -2,11 +2,48 @@
 layout: default
 ---
 
+<style>
+    .update-link {
+        display: block;
+        margin-bottom: 10px;
+        color: blue;
+    }
+</style>
+</head>
+<body>
 <div class="container">
     <div class="content">
         <h2>아카이브 소개</h2>
         <p>여기는 다양한 텍스트 자료를 보관하는 아카이브입니다.</p>
         <h2>최근 업데이트</h2>
-        <p>최신 업데이트된 텍스트 자료를 확인해보세요.</p>
+        <div id="latest-updates">
+            <!-- 여기에 최신 업데이트된 글이 자동으로 추가됩니다 -->
+        </div>
     </div>
 </div>
+
+<script>
+    // 최신 업데이트된 글 정보를 배열로 정의
+    var latestUpdates = [
+        { title: '최신 글 제목 1', url: 'latest-update-1.html' },
+        { title: '최신 글 제목 2', url: 'latest-update-2.html' },
+        { title: '최신 글 제목 3', url: 'latest-update-3.html' }
+        // 필요한 만큼 계속 추가할 수 있습니다
+    ];
+
+    // 페이지 로드 후 실행되는 함수
+    window.onload = function() {
+        var updatesContainer = document.getElementById('latest-updates');
+
+        // 최신 업데이트된 글을 반복문을 통해 추가
+        for (var i = 0; i < latestUpdates.length; i++) {
+            var update = latestUpdates[i];
+            var link = document.createElement('a');
+            link.href = update.url;
+            link.textContent = update.title;
+            link.classList.add('update-link');
+            updatesContainer.appendChild(link);
+        }
+    };
+</script>
+</body>
