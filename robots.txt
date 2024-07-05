@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lfayej.github.io/archives/sitemap.xml
