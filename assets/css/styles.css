@@ -116,6 +116,14 @@ input[type="text"] {
   padding: 5px;
   font-size: 16px;
 }
+
+a {
+  text-decoration-line: none;
+/*   text-decoration-line: underline; */
+/*   text-decoration-line: overline; */
+/*   text-decoration-line: line-through; */
+/*   text-decoration-line: underline line-through overline; */
+}
   
 .content {
   padding: 0;
