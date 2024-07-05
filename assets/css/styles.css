@@ -103,16 +103,16 @@ img {
   position: fixed;
   top: 0;
   right: 0;
-  width: 15%; /* 기존 사이드바와 동일한 너비 */
+  width: 10%; /* 기존 사이드바와 동일한 너비 */
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
   padding: 5px; /* 내부 여백 */
   box-sizing: border-box;
-  border-right: 1px solid var(--border-color); /* 구분선 */
+  border-left: 1px solid var(--border-color); /* 구분선 */
 }
 
 .additional-side-menu h1 {
-  margin-top: 0; /* 기본 마진 제거 */
+  margin-top: 1; /* 기본 마진 제거 */
   font-size: 1.5em; /* 제목의 글자 크기 */
 }
 
@@ -141,7 +141,7 @@ img {
 
 .additional-side-menu ul li a i {
   margin-right: 10px; /* 아이콘과 텍스트 사이의 간격 설정 */
-  font-size: 1.2em; /* 아이콘 크기 설정 */
+  font-size: 5em; /* 아이콘 크기 설정 */
 }
 
 .main-content {
