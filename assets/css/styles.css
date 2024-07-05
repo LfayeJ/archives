@@ -15,12 +15,15 @@ html, body, .container, header, header h1, header nav ul, header nav ul li, head
   transform: rotate(0.04deg);
 }
 
+body, html {
+    min-height: 100vh; /* 화면 전체 높이 */
+}
+  
 body {
   font-family: "Orbit-Regular";
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  min-height: 100vh; /* 화면 전체 높이 */
 }
 
 .container {
