@@ -2,6 +2,7 @@ title: "Jiwon Lee"
 description: "여기는 다양한 텍스트 자료를 보관하는 아카이브입니다."
 baseurl: "/archives"
 url: "https://lfayej.github.io/archives/"
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-include-cache', 'jekyll-gist']
 markdown: kramdown
 theme: minima
 defaults:
