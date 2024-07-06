@@ -9,9 +9,8 @@ layout: default
         <h2>아카이브</h2>
          <div>
           {% capture archive_content %}
-          {% include_relative archive.md %}
+          {% include_relative archive.html %}
           {% endcapture %}
-          {{ archive_content | markdownify }}
          </div>
     </div>
 </div>
