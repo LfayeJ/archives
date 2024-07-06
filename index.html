@@ -25,7 +25,7 @@ layout: default
 <script>
     $(document).ready(function() {
         // 최근 업데이트된 글 가져오기
-        var archiveUrl = 'https://lfayej.github.io/archives/archive';
+        var archiveUrl = "{{ site.baseurl }}/archive";
         $.ajax({
             url: archiveUrl,
             success: function(data) {
