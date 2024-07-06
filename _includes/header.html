@@ -1,12 +1,26 @@
 <header>
   <div class="gnb_search">
-    <s_search>
+    <div class="s_search">
       <fieldset>
-        <input type="text" id="searchInput" name="[##_search_name_##]" value="" placeholder="찾을 내용을 입력하세요." onkeypress="if (event.keyCode == 13) { searchFunction(); }">
+        <input type="text" id="searchInput" name="search_content" value="" placeholder="찾을 내용을 입력하세요." onkeypress="handleKeyPress(event)">
         <button type="button" onclick="searchFunction()">
-          <i class="fa fa-search"></i> <!-- 폰트 아이콘 삽입 -->
+          <i class="fa fa-search"></i>
         </button>
       </fieldset>
-    </s_search>
+    </div>
   </div>
 </header>
+
+<script>
+  function handleKeyPress(event) {
+    if (event.keyCode === 13) {
+      searchFunction();
+    }
+  }
+
+  function searchFunction() {
+    var searchContent = document.getElementById('searchInput').value;
+    // 여기에 검색 기능 구현
+    console.log('검색어:', searchContent);
+  }
+</script>
