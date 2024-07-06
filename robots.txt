@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://https://jiwonlee.art/sitemap.xml
+Sitemap: https://jiwonlee.art/sitemap.xml
