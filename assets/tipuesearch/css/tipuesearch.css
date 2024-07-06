@@ -6,32 +6,6 @@ Tipue Search is released under the MIT License
 http://www.tipue.com/search
 */
 
-
-/* fonts */
-
-
-#tipue_search_input, #tipue_search_foot_boxes
-{
-     font: 300 14px/1 Roboto, sans-serif;
-}
-#tipue_search_results_count, #tipue_search_warning, .tipue_search_content_url, .tipue_search_content_debug, .tipue_search_related_text
-{
-     font: 300 14px/1.7 Roboto, sans-serif;
-}
-.tipue_search_content_title
-{
-     font: 100 26px/1.7 Roboto, sans-serif;
-}
-.tipue_search_content_text, .tipue_search_related_title
-{
-     font: 300 15px/1.7 Roboto, sans-serif;
-}
-.tipue_search_content_bold, .tipue_search_related_bold
-{
-     font-weight: 400;
-}
-
-
 /* search box */
 
 
@@ -39,7 +13,7 @@ http://www.tipue.com/search
 {
      color: #333;
      max-width: 210px;
-	padding: 17px;
+	padding: 12px;
 	border: 1px solid #e3e3e3;
 	border-radius: 0;
 	-moz-appearance: none;
@@ -55,12 +29,12 @@ http://www.tipue.com/search
 }
 .tipue_search_left
 {
-     float: left;
-     padding: 15px 9px 0 0;
+     float: right;
+    
 }
 .tipue_search_right
 {
-     float: left;
+     float: right;
 }
 
 
