@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include meta.html %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="{{ site.baseurl }}/assets/js/search.js" defer></script>
     <script>
-      function searchFunction() {
-       var query = document.getElementById("searchInput").value;
-       if (query) {
-         window.location.href = '/search?q=' + encodeURIComponent(query);
-    }
-  }
+        function searchFunction() {
+            var query = document.getElementById("searchInput").value;
+            if (query) {
+                window.location.href = '/search?q=' + encodeURIComponent(query);
+            }
+        }
     </script>
 </head>
 <body>
@@ -21,16 +19,16 @@
         <aside class="side-menu">
             <h1>Jiwon Lee</h1>
             <ul>
-               <li><a href="{{ site.baseurl }}/">홈</a></li>
-               <li><a href="{{ site.baseurl }}/about">소개</a></li>
-               <li><a href="{{ site.baseurl }}/archive">아카이브</a></li>
-               <li><a href="{{ site.baseurl }}/etc">기타</a></li>
+                <li><a href="{{ site.baseurl }}/">홈</a></li>
+                <li><a href="{{ site.baseurl }}/about">소개</a></li>
+                <li><a href="{{ site.baseurl }}/archive">아카이브</a></li>
+                <li><a href="{{ site.baseurl }}/etc">기타</a></li>
             </ul>
         </aside>
         <aside class="additional-side-menu">
             <ul>
-               <li><a href="https://www.instagram.com/lfaye_ji/"><i class="fab fa-instagram-square"></i></a></li>
-               <li><a href="mailto:lfaye1213@gmail.com"><i class="far fa-envelope"></i></a></li>
+                <li><a href="https://www.instagram.com/lfaye_ji/"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="mailto:lfaye1213@gmail.com"><i class="far fa-envelope"></i></a></li>
             </ul>
         </aside>
         <main class="main-content">
