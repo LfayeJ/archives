@@ -6,35 +6,13 @@
     <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
     <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
     <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
-</head>
-  <div class="gnb_search">
-    <div class="s_search">
-      <fieldset>
-        <input type="text" id="searchInput" name="search_content" value="" placeholder="찾을 내용을 입력하세요." onkeypress="handleKeyPress(event)">
-        <button type="button" onclick="searchFunction()">
-          <i class="fa fa-search"></i>
-        </button>
-      </fieldset>
-    </div>
-  </div>
+  </head>
+  <form action="/search">
+    <div class="tipue_search_left">
+     <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+   </div>
+   <div class="tipue_search_right">
+     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+   <div style="clear: both;"></div>
+  </form>
 </header>
-
-<script>
-  function handleKeyPress(event) {
-    if (event.key === 'Enter') {
-      searchFunction();
-    }
-  }
-
-  function searchFunction() {
-    var searchContent = document.getElementById('searchInput').value.trim(); // 검색어 앞뒤 공백 제거
-    if (searchContent !== '') {
-      console.log('검색어:', searchContent);
-      // 여기에 실제 검색 기능을 구현할 수 있습니다.
-      // 예를 들어, 검색어를 서버로 전송하여 결과를 받아오는 로직을 추가할 수 있습니다.
-    } else {
-      console.log('검색어를 입력하세요.');
-    }
-  }
-</script>
-
