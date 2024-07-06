@@ -218,15 +218,20 @@ footer {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    width: 100%;
+    width: 95vh;
   }
 
   .side-menu {
-    width: 100%;
+    width: 95vh;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
 
+  .additional-side-menu {
+    height: 100vh;
+    font-size: 0.9em;
+  }
+  
   .main-content {
     width: 100%;
   }
