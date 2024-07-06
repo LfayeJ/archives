@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var query = urlParams.get('q');
     
     if (query) {
-        document.title = '검색 결과 - ' + query;
+        document.title = '검색 결과' + query;
         search(query);
     }
 });
