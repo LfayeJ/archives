@@ -3,7 +3,7 @@ layout: default
 title: 아카이브
 ---
 ## 아카이브
-> 01. [구우희, 미소 《비가역》 — 전시 서문](_pages/archives_0011.md)
+> 01. [구우희, 미소 《비가역》 — 전시 서문](/_pages/archives_0011.md)
 > 00. [손몽주 《떠다니는 조각들 : FLOATING SCULPTURES》 — 리뷰](_pages/archives_0010.md)
 > 00. [민지훈 《언더그라운드랩소디 UNDERGROUND RHAPSODY》 — 리뷰](_pages/archives_0009.md)
 > 00. [강수빈, 이정동 《측정 불가 지역 IMMEASURABLE AREA》 — 전시 서문](_pages/archives_0008.md)
