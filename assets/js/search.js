@@ -1,23 +1,35 @@
-// search.js
 document.addEventListener("DOMContentLoaded", function() {
-    var urlParams = new URLSearchParams(window.location.search);
-    var query = urlParams.get('q');
-    
-    if (query) {
-        document.title = '검색 결과' + query;
-        search(query);
-    }
+    var searchInput = document.getElementById("searchInput");
+    var searchButton = document.getElementById("searchButton");
+
+    searchInput.addEventListener("keypress", function(event) {
+        if (event.keyCode === 13) { // Enter 키가 눌렸을 때
+            searchFunction();
+        }
+    });
+
+    searchButton.addEventListener("click", function() {
+        searchFunction();
+    });
 });
 
-function search(query) {
-    var resultsContainer = document.getElementById("searchResults");
-    // 여기에 실제 검색 로직을 추가합니다. 예시:
-    var results = [
-        { title: "Example Result 1", link: "/result1", snippet: "This is an example snippet for result 1." },
-        { title: "Example Result 2", link: "/result2", snippet: "This is an example snippet for result 2." },
-    ];
+function searchFunction() {
+    var query = document.getElementById("searchInput").value;
+    
+    // AJAX 요청으로 검색 결과 가져오기
+    fetch('/search?q=' + encodeURIComponent(query))
+        .then(response => response.json())
+        .then(data => {
+            displaySearchResults(data); // 검색 결과를 표시하는 함수 호출
+        })
+        .catch(error => {
+            console.error('Error fetching search results:', error);
+        });
+}
 
-    resultsContainer.innerHTML = "<h2>'" + query + "'에 대한 검색 결과</h2>";
+function displaySearchResults(results) {
+    var resultsContainer = document.getElementById("searchResults");
+    resultsContainer.innerHTML = ""; // 결과를 비우고 다시 채우기
 
     if (results.length > 0) {
         var resultsList = document.createElement('ul');
@@ -36,6 +48,6 @@ function search(query) {
         });
         resultsContainer.appendChild(resultsList);
     } else {
-        resultsContainer.innerHTML += "<p>검색 결과가 없습니다.</p>";
+        resultsContainer.innerHTML = "<p>검색 결과가 없습니다.</p>";
     }
 }
