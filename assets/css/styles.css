@@ -215,39 +215,45 @@ footer {
   text-align: center;
 }
 
+/* 태블릿 및 그 이하 */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    width: 95vh;
+    width: 80vh;
   }
 
   .side-menu {
-    width: 95vh;
+    width: 80vh;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
 
   .additional-side-menu {
-    height: 100vh;
-    font-size: 0.9em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20vw; /* 뷰포트 너비의 20% */
+    height: 100vh; /* 뷰포트 높이의 100% */
+    font-size: 0.8em;
   }
   
   .main-content {
-    width: 100%;
+    width: 80vh;
   }
 }
 
+/* 작은 모바일 화면 */
 @media (max-width: 480px) {
   header h1 {
     font-size: 1.5em;
   }
 
   .side-menu h1 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .content h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .content p {
