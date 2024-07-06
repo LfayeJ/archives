@@ -227,6 +227,7 @@ footer {
 
   .side-menu {
     width: 95vh;
+    height: 40vh;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
@@ -237,7 +238,7 @@ footer {
     right: 0;
     width: 5vw; /* 뷰포트 너비의 20% */
     height: 100vh; /* 뷰포트 높이의 100% */
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
   
   .main-content {
