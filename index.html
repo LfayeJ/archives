@@ -2,67 +2,17 @@
 layout: default
 ---
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<style>
-    .update-link {
-        display: block;
-        margin-bottom: 10px;
-        color: black;
-    }
-</style>
 <body>
 <div class="container">
     <div class="content">
-        <h2>아카이브 소개</h2>
         <p>여기는 다양한 텍스트 자료를 보관하는 아카이브입니다.</p>
-        <h2>최근 업데이트</h2>
-        <div id="latest-updates">
-            <!-- 여기에 최신 업데이트된 글이 자동으로 추가됩니다 -->
-        </div>
+        <h2>아카이브</h2>
+         <div>
+          {% capture archive %}
+          {% include_relative archive.md %}
+          {% endcapture %}
+          {{ archive | markdownify }}
+         </div>
     </div>
 </div>
-
-<script>
-    $(document).ready(function() {
-        // 최근 업데이트된 글 가져오기
-        var archiveUrl = "{{ site.baseurl }}/archive";
-        $.ajax({
-            url: archiveUrl,
-            success: function(data) {
-                // Markdown 파일 파싱
-                var lines = data.split('\n');
-                var latestUpdates = [];
-
-                // Markdown 파일에서 링크 추출
-                for (var i = 0; i < lines.length; i++) {
-                    var line = lines[i].trim();
-                    if (line.startsWith('- [')) {
-                        var linkStart = line.indexOf('(') + 1;
-                        var linkEnd = line.indexOf(')');
-                        var linkUrl = line.substring(linkStart, linkEnd);
-                        var linkTitle = line.substring(line.indexOf('[') + 1, line.indexOf(']'));
-                        latestUpdates.push({ title: linkTitle, url: linkUrl });
-                    }
-                }
-
-                // 최신 3개의 업데이트된 글만 선택
-                latestUpdates = latestUpdates.slice(0, 3);
-
-                // HTML에 추가
-                var updatesContainer = document.getElementById('latest-updates');
-                for (var j = 0; j < latestUpdates.length; j++) {
-                    var update = latestUpdates[j];
-                    var link = document.createElement('a');
-                    link.href = update.url;
-                    link.textContent = update.title;
-                    link.classList.add('update-link');
-                    updatesContainer.appendChild(link);
-                }
-            },
-            error: function(xhr, status, error) {
-                console.error('Error fetching archive:', error);
-            }
-        });
-    });
-</script>
 </body>
