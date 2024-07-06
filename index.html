@@ -8,10 +8,10 @@ layout: default
         <p>여기는 다양한 텍스트 자료를 보관하는 아카이브입니다.</p>
         <h2>아카이브</h2>
          <div>
-          {% capture archive %}
+          {% capture archive_content %}
           {% include_relative archive.md %}
           {% endcapture %}
-          {{ archive | markdownify }}
+          {{ archive_content | markdownify }}
          </div>
     </div>
 </div>
