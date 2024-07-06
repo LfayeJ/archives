@@ -11,3 +11,5 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+include:
+  - _pages
