@@ -61,7 +61,7 @@ p:last-of-type {
 }
 
 .side-menu {
-  width: 12vw;
+  width: 12%
   min-height: 100vh;
   background-color: #f0f0f0;
   position: left: 0;
@@ -98,9 +98,10 @@ p:last-of-type {
 
 .additional-side-menu {
   position: fixed;
+  display:flex;
   top: 0;
   right: 0;
-  width: 5vw; /* 너비 */
+  width: 5%
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
   padding: 25px; /* 내부 여백 */
@@ -125,7 +126,6 @@ p:last-of-type {
 .additional-side-menu ul li a {
   text-decoration: none; /* 링크 밑줄 제거 */
   color: #333; /* 링크 색상 */
-  display:flex;
   align-items: center;
   padding: 8px 0; /* 링크 내부 여백 */
   transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
