@@ -2,13 +2,9 @@
 layout: post
 title: "레브 마노비치 <AI 예술 정의: 세 가지 제안 DEFINING AI ARTS: THREE PROPOSALS> - 번역"
 date: 2024-06-20 15:54:00 +0900
-author:
-  name: 이지원
+author: 이지원
 categories: etc
 tags: [동시대미술, 마노비치, AI, 인공지능, 예술]
----
-
-##  레브 마노비치 <AI 예술 정의: 세 가지 제안 DEFINING AI ARTS: THREE PROPOSALS> - 번역
 ---
 
 ### AI 예술  정의: 세  가지  제안

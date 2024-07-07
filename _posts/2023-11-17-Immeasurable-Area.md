@@ -2,14 +2,9 @@
 layout: post
 title: "강수빈, 이정동 《측정 불가 지역 Immeasurable Area》 — 전시 서문"
 date: 2023-11-17 15:41:00 +0900
-author:
-  name: 이지원
+author: 이지원
 categories: archive
 tags: [동시대미술, 제이무브먼트, 강수빈, 이정동, 측정불가지역, 청년작가]
----
-
-## 강수빈, 이정동 《측정 불가 지역 Immeasurable Area》 — 전시 서문
-
 ---
 
 > - 글 : 이지원
