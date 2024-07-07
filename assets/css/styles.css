@@ -200,6 +200,7 @@ footer {
   border-top: 1px solid var(--border-color);
   margin-top: 20px;
   text-align: center;
+  position: fixed; bottom: 0;
 }
 
 /* 태블릿 및 그 이하 */
