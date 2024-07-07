@@ -59,7 +59,6 @@ p:last-of-type {
   width: var(--container-width);
   min-height: 100vh;
   background-color: #fff;
-  align-items: center; /* 요소들을 세로 방향 가운데 정렬합니다. */
 }
 
 .side-menu {
@@ -144,7 +143,6 @@ p:last-of-type {
 .main-content {
   flex: 1;
   display: flex;
-  flex-direction: column;
   padding: 20px;
   background-color: #fff;
   box-sizing: border-box;
