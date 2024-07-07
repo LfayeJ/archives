@@ -1,3 +1,13 @@
+---
+layout: post
+title: "이다은 《새로운 삶의 지도 New, Lives, Map》 —— 리뷰"
+date: 2023-07-01 15:17:00 +0900
+author:
+  name: 이지원
+categories: archive
+tags: [동시대미술, 홍티아트센터, 이다은, 이동자들, 인덱스, 새로운삶의지도]
+---
+
 ## 이다은 《새로운 삶의 지도 New, Lives, Map》 —— 리뷰
 
 ---

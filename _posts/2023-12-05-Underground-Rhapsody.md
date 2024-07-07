@@ -1,4 +1,14 @@
-##  민지훈 《언더그라운드랩소디 UNDERGROUND RHAPSODY》 — 리뷰
+---
+layout: post
+title: "민지훈 《언더그라운드랩소디 Underground Rhapsody》 — 리뷰"
+date: 2023-12-05 17:38:00 +0900
+author:
+  name: 이지원
+categories: archive
+tags: [동시대미술, 윈드밀, 민지훈, 언더그라운드랩소디, 지하, 서울, 용산, 청년작가]
+---
+
+##  민지훈 《언더그라운드랩소디 Underground Rhapsody》 — 리뷰
 
 ---
 

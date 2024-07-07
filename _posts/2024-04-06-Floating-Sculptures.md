@@ -1,4 +1,14 @@
-##  손몽주 《떠다니는 조각들 : FLOATING SCULPTURES》 — 리뷰
+---
+layout: post
+title: "손몽주 《떠다니는 조각들 : Floating Sculptures》 — 리뷰"
+date: 2024-04-06 17:38:00 +0900
+author:
+  name: 이지원
+categories: archive
+tags: [동시대미술, 유니랩스갤러리, 손몽주, 떠다니는조각들, 부산]
+---
+
+##  손몽주 《떠다니는 조각들 : Floating Sculptures》 — 리뷰
 ---
 > - 글 : 이지원
 

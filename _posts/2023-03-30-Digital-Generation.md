@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "디지털 세대에 주목하는 이유 ⎯The Importance of the Digital Generation"
-date: 2023-03-30
+date: 2023-03-30 15:30:00 +0900
+author:
+  name: 이지원
 categories: archive
 tags: [디지털세대, 동시대미술, 네트워크,포스트인터넷, 디지털]
 ---

@@ -1,3 +1,13 @@
+---
+layout: post
+title: "초월된 위계들 Transcending Hierarchies — 전시 서문"
+date: 2023-04-04 15:42:00 +0900
+author:
+  name: 이지원
+categories: archive
+tags: [위계, 동시대미술, 하이퍼링크, 초월된위계들, 민지훈, 양나영]
+---
+
 ## 초월된 위계들 Transcending Hierarchies — 전시 서문
 
 ---
