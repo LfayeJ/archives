@@ -55,7 +55,7 @@ p:last-of-type {
 .container {
   display: flex;
   flex-direction: column; /* 세로 방향으로 요소를 배치합니다. */
-  width: 83vw;
+  width: 83%
   min-height: 100vh;
   background-color: #fff;
 }
