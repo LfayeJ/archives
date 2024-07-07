@@ -136,7 +136,7 @@ p:last-of-type {
 
 .additional-side-menu ul li a i {
   margin-right: 10px; /* 아이콘과 텍스트 사이의 간격 설정 */
-  font-size: 2.7em; /* 아이콘 크기 설정 */
+  font-size: 2.4em; /* 아이콘 크기 설정 */
 }
 
 .main-content {
@@ -199,8 +199,9 @@ button i {
 footer {
   border-top: 1px solid var(--border-color);
   margin-top: 20px;
+  width: 100%;
   text-align: center;
-  position: fixed; bottom: 0;
+  position: bottom: 0;
 }
 
 /* 태블릿 및 그 이하 */
