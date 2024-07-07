@@ -7,6 +7,16 @@ title: Home
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ startOnLoad: true });
+        theme: 'neutral',  // 테마 설정: default, dark, forest, neutral 등
+        themeVariables: {
+            primaryColor: '#ffcc00',  // 기본 색상
+            primaryTextColor: '#000000',  // 기본 텍스트 색상
+            nodeBorder: '#000000',  // 노드 테두리 색상
+        },
+        flowchart: {
+            curve: 'basis',  // 선의 곡률: basis, linear, cardinal 등
+        }
+    });
     </script>
 </head>
 <body>
@@ -15,23 +25,23 @@ title: Home
         <h2>아카이브</h2>
         <p>여기는 다양한 텍스트 자료를 보관하는 아카이브입니다.</p>
     </div>
-     <div class="mermaid">
+       <div class="mermaid">
+        mindmap
+            root((서울))
+                Branch 1
+                    Sub-branch 1.1
+                    Sub-branch 1.2
+                Branch 2
+                    Sub-branch 2.1
+       </div>
+       <div class="mermaid">
         mindmap
             root((부산))
-                Origins
-                    Long history
-                    Popularisation
-                        British popular psychology author Tony Buzan
-                Research
-                    On effectivness<br/>and features
-                    On Automatic creation
-                        Uses
-                            Creative techniques
-                            Strategic planning
-                            Argument mapping
-                Tools
-                    Pen and paper
-                    Mermaid
-    </div>
+                Branch A
+                    Sub-branch A.1
+                    Sub-branch A.2
+                Branch B
+                    Sub-branch B.1
+       </div>
 </div>
 </body>
