@@ -7,7 +7,6 @@
 }
 
 :root {
-  --container-width: 95%;
   --border-color: black;
 }
  
@@ -55,13 +54,13 @@ p:last-of-type {
 
 .container {
   display: flex;
-  width: 83%
+  width: 83vw;
   min-height: 100vh;
   background-color: #fff;
 }
 
 .side-menu {
-  width: 12%
+  width: 12vw
   min-height: 100vh;
   background-color: #f0f0f0;
   position: left: 0;
@@ -100,7 +99,7 @@ p:last-of-type {
   position: fixed;
   top: 0;
   right: 0;
-  width: 5%
+  width: 5vw
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
   padding: 25px; /* 내부 여백 */
