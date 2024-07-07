@@ -143,6 +143,7 @@ p:last-of-type {
 
 .main-content {
   flex: 1;
+  flex-direction: column; /* 세로 방향으로 요소를 배치합니다. */
   display: flex;
   padding: 20px;
   background-color: #fff;
