@@ -2,6 +2,7 @@
 layout: default
 title: 아카이브
 ---
+
 ## 아카이브
 > 01. [구우희, 미소 《비가역》 — 전시 서문]({% post_url 2024-05-12-Irreversible %})
 > 00. [손몽주 《떠다니는 조각들 : Floating Sculptures》 — 리뷰]({% post_url 2024-04-06-Floating-Sculptures %})
