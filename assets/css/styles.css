@@ -99,7 +99,7 @@ p:last-of-type {
   position: fixed;
   top: 0;
   right: 0;
-  width: 5vw
+  width: 5vw;
   min-height: 100vh; /* 화면 전체 높이 */
   background-color: #f0f0f0; /* 배경색 */
   padding: 25px; /* 내부 여백 */
@@ -199,7 +199,7 @@ footer {
   clear: both; /* 플로팅 요소들을 clear합니다. */
   border-top: 1px solid var(--border-color);
   margin-top: 20px;
-  position: bottom: 0;
+  position: absolute;
 }
 
 /* 태블릿 및 그 이하 */
