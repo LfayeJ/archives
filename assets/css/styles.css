@@ -197,10 +197,10 @@ button i {
 }
 
 footer {
+  clear: both; /* 플로팅 요소들을 clear합니다. */
   border-top: 1px solid var(--border-color);
   margin-top: 20px;
   width: 100%;
-  text-align: center;
   position: bottom: 0;
 }
 
