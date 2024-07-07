@@ -65,6 +65,7 @@ p:last-of-type {
   width: 15%;
   min-height: 100vh;
   background-color: #f0f0f0;
+  position: left: 0;
   padding: 25px;
   box-sizing: border-box;
   border-right: 1px solid var(--border-color);
