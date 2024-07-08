@@ -46,10 +46,7 @@ p:last-of-type {
 
 .post-header {
   margin-top: 20px;
-}
-
-.post-meta {
-  margin-bottom: 20px;  
+  padding: 20px;
 }
 
 .container {
