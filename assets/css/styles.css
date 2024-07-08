@@ -52,6 +52,7 @@ p:last-of-type {
 }
 
 .side-menu, .additional-side-menu {
+  min-height: 100vh;
   background-color: #f0f0f0;
   padding: 25px;
   box-sizing: border-box;
@@ -187,7 +188,7 @@ button i {
 
   .side-menu {
     width: 95vw;
-    height: 40vh;
+    height: 50vh;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
