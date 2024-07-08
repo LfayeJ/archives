@@ -145,6 +145,7 @@ header, footer {
 
 header {
   border-bottom: 1px solid var(--border-color);
+  border-top: none;
 }
 
 header h1 {
@@ -154,6 +155,7 @@ header h1 {
 
 footer {
   border-top: 1px solid var(--border-color);
+  border-bottom: none;
   margin-top: 20px;
   clear: both;
 }
