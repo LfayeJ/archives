@@ -171,6 +171,7 @@ button i {
 .content {
   padding: 0;
   flex: 1;
+  position: relative;
 }
 
 .content h2 {
