@@ -115,6 +115,7 @@ p:last-of-type {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  border-top: none;
 }
 
 .h-entry {
