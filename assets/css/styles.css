@@ -44,6 +44,11 @@ p:last-of-type {
   border: 1px solid var(--border-color);
 }
 
+.post-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   width: 95vw;
