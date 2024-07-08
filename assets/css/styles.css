@@ -119,6 +119,10 @@ p:last-of-type {
   box-sizing: border-box;
 }
 
+.h-entry {
+            padding: 20px;
+        }
+
 #search-bar {
     margin: 32px auto;
     border: 1px solid #ccc;
