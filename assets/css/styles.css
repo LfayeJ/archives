@@ -114,7 +114,6 @@ p:last-of-type {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 20px;
   background-color: #fff;
   box-sizing: border-box;
 }
@@ -175,7 +174,7 @@ button i {
 }
 
 .content {
-  padding: 0;
+  padding: 20px;
   flex: 1;
   position: relative;
 }
