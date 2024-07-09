@@ -116,6 +116,10 @@ h2 {
     position: relative; /* 부모 요소를 relative로 설정 */
 }
 
+.grid-item:hover {
+    color: #007cb8; /*호버 시 글자색을 배경색과 동일한 색으로 변경 */
+    background-color: white; /* 호버 시 배경색을 변경 */
+  
 /* 링크 스타일 */
 .grid-item a {
     text-decoration: none;
