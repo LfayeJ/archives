@@ -209,6 +209,7 @@ button i {
   flex: 1;
   position: relative;
   border-top: none;
+  padding: 20px;
 }
 
 .content h2 {
