@@ -135,12 +135,9 @@ h2 {
     background-color: white; /* 호버 시 배경색을 변경 */
 }
 
-main {
-  padding: 20px;
-}
-  
 .main-content {
   width: 50vw;
+  padding: 20px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -216,6 +213,7 @@ fieldset {
 
 .side-content {
   width: 27vw;
+  padding: 20px;
   flex: 1;
   display: flex;
   flex-direction: column;
