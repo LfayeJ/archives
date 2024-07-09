@@ -46,7 +46,6 @@ p {
 
 .container {
   display: flex;
-  width: calc(100vw - 3vw);
   min-height: 100vh;
   background-color: #fff;
 }
@@ -130,16 +129,6 @@ p {
 }
 
 .main-content {
-  width: calc((100vw - 3vw) / 2);
-  margin: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-top: none;
-}
-
-.side_content {
   width: calc((100vw - 3vw) / 4);
   margin: 20px;
   flex: 1;
@@ -147,7 +136,8 @@ p {
   flex-direction: column;
   background-color: #fff;
   border-top: none;
-  
+}
+ 
 .h-entry {
   padding: 20px;
         }
@@ -202,6 +192,7 @@ button i {
 }
 
 .content {
+  width: calc((100vw - 3vw) / 2);
   flex: 1;
   position: relative;
   border-top: none;
@@ -220,6 +211,31 @@ button i {
 }
 
 .content p {
+  line-height: 2.3;
+}
+
+.side-content {
+  width: calc((100vw - 3vw) / 4);
+  margin: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  border-top: none;
+  
+.side-content h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.side-content hr {
+  height: 1px;
+  border: 1px solid var(--border-color);
+  margin: 20px 0;
+  background-color: var(--border-color);
+}  
+.side-content p {
   line-height: 2.3;
 }
 
