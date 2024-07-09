@@ -93,11 +93,6 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.side-menu ul li a:hover {
-  background-color: #ddd;
-  color: #007cb8;
-}
-
 .additional-side-menu ul li a:hover {
   color: #007cb8;
 }
