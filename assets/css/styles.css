@@ -195,20 +195,28 @@ fieldset {
   flex: 1;
   position: relative;
   border-top: none;
+  margin: 0;
+  padding: 20px;
 }
 
 .content h2 {
   font-size: 1.4em;
+  margin: 0;
+  padding: 20px;
 }
 
 .content hr {
   height: 1px;
+  margin: 0;
+  padding: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--border-color);
 }
 
 .content p {
   line-height: 2.3;
+  margin: 0;
+  padding: 20px;
 }
 
 .side-content {
