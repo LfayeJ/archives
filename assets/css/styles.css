@@ -236,7 +236,7 @@ button i {
 .rotated-text {
     display: inline-block; /* 회전할 요소를 inline-block으로 설정 */
     transform: rotate(90deg); /* 90도 회전 */
-    transform-origin: left top; /* 회전 기준점 설정 */
+    transform-origin: right bottom; /* 회전 기준점 설정 */
     white-space: nowrap; /* 텍스트가 한 줄에 표시되도록 설정 */
 }
   
