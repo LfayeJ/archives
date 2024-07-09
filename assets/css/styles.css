@@ -188,16 +188,6 @@ fieldset {
   border: none;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-button i {
-  font-size: 16px;
-}
-
 .content {
   width: 100%
   flex: 1;
