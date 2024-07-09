@@ -50,7 +50,7 @@ p:last-of-type {
 
 .container {
   display: flex;
-  width: 95vw;
+  width: calc(100vw - 3vw);
   min-height: 100vh;
   background-color: #fff;
 }
@@ -71,7 +71,7 @@ p:last-of-type {
   position: fixed;
   top: 0;
   right: 0;
-  width: 5vw;
+  width: 3vw;
   border-left: 1px solid var(--border-color);
 }
 
