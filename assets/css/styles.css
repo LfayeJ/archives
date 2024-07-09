@@ -59,7 +59,8 @@ p {
 
 .side-menu {
   width: 12vw;
-  border-right: 1px solid var(--border-color);
+  border_right: 1px solid black;
+  box-sizing: border-box;
   padding: 25px;
 }
 
@@ -105,6 +106,29 @@ p {
 .additional-side-menu ul li a i {
   margin-right: 10px;
   font-size: 2rem;
+}
+
+/* 그리드 항목 스타일 */
+.grid-item {
+    border: 1px solid black; /* 그리드 항목 윤곽선 */
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; /* 배경색 (선택사항) */
+}
+
+/* 링크 스타일 */
+.grid-item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #f0f0f0; /* 링크의 기본 배경색 */
+    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 링크 호버 스타일 */
+.grid-item a:hover {
+    background-color: color: #007cb8; /* 호버 시 배경색을 변경 */
+    color: #f0f0f0; /* 호버 시 글자색을 배경색과 동일한 색으로 변경 */
 }
 
 .main-content {
