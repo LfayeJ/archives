@@ -170,7 +170,7 @@ h2 {
 header {
   width: 97vw;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 1px solid var(--border-color);
   border-top: none;
 }
