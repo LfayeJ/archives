@@ -61,6 +61,7 @@ p {
   width: calc((100vw - 3vw) / 4);
   border-right: 1px solid black;
   box-sizing: border-box;
+  gap: 0px;
 }
 
 .additional-side-menu {
@@ -109,7 +110,6 @@ p {
     border: 1px solid black; /* 그리드 항목 윤곽선 */
     text-align: center;
     background-color: #007cb8; /* 배경색 (선택사항) */
-    gap: 0px;
     padding: 2vw;
 }
 
@@ -246,8 +246,10 @@ button i {
   }
 
   .side-menu {
-    width: 95vw;
-    height: 50vh;
+    flex: 1 0 auto;
+    width: 97vw;
+    height: 80vh;
+    order: 1; /* 순서 변경 */
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
@@ -255,7 +257,13 @@ button i {
   .additional-side-menu {
     font-size: 0.7rem;
   }
-
+  
+  .grid {
+    flex: 1 0 auto; /* 자동 크기 조정 */
+    width: 100%; /* 전체 너비로 설정 */
+    order: 2; /* 순서 변경 */
+  }  
+  
   .main-content {
     width: 95vw;
   }
