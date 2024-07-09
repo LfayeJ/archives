@@ -46,6 +46,7 @@ h2 {
 
 .container {
   display: flex;
+  flex-wrap: nowrap; /* 요소들이 한 줄에 모두 들어가도록 설정 */
   min-height: 100vh;
   background-color: #fff;
   box-sizing: border-box;
@@ -71,6 +72,7 @@ h2 {
   width: 3vw;
   padding: 0.7vw;
   border-left: 1px solid var(--border-color);
+  z-index: 10; /* 다른 요소 위에 표시되도록 설정 */
 }
 
 .side-menu h1, .additional-side-menu h1 {
@@ -105,7 +107,6 @@ h2 {
 
 /* 그리드 항목 스타일 */
 .grid-item {
-    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
     border-left: none;
     border-right: none;
     border-top: none; /* 중첩되는 부분의 위쪽 윤곽선 제거 */
@@ -114,7 +115,6 @@ h2 {
     background-color: #007cb8; /* 배경색 (선택사항) */
     padding: 2vw;
     box-sizing: border-box;
-    position: relative; /* 부모 요소를 relative로 설정 */
 }
 
 .grid-item:hover {
@@ -127,7 +127,6 @@ h2 {
     text-decoration: none;
     display: block;
     flex: 1;
-    box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
 }
 
 /* 링크 호버 스타일 */
@@ -146,7 +145,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-top: none;
   box-sizing: border-box;
 }
  
@@ -221,9 +219,7 @@ fieldset {
   flex: 1;
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: #fff;
-  border-top: none;
   box-sizing: border-box;
 }
   
@@ -262,33 +258,33 @@ fieldset {
   }
 
   .side-menu {
-    flex: 1 0 auto;
     width: 97vw;
-    height: 80vh;
-    order: 1; /* 순서 변경 */
+    height: auto
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
 
   .additional-side-menu {
     font-size: 0.7rem;
+    position: absolute;
+    border-left: none;
+    border-bottom: 1px solid var(--border-color);
+    }
   }
   
   .grid-item {
-    flex: 1 0 auto; /* 자동 크기 조정 */
     width: 97vw; /* 전체 너비로 설정 */
     border-right: none;
-    order: 2; /* 순서 변경 */
   }  
   
-  .main-content {
+  .main-content, .side-content {
     width: 97vw;
-  }
+    }
 }
 
 @media (max-width: 480px) {
   header h1, .side-menu h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .content h2 {
