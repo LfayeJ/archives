@@ -37,9 +37,7 @@ p {
 }
 
 h1 {
-  padding: 20px;
   margin: 20px;
-
 }
 
 h2 {
@@ -68,7 +66,7 @@ h2 {
 }
 
 .side-menu {
-  width: calc((100vw - 3vw) / 4);
+  width: 20vw;
   border-right: 1px solid black;
   box-sizing: border-box;
   margin: 0px;
@@ -113,7 +111,7 @@ h2 {
 
 /* 그리드 항목 스타일 */
 .grid-item {
-    grid-template-columns: repeat(auto-fill, minmax(calc((100vw - 3vw) / 4), 1fr));
+    grid-template-columns: repeat(auto-fill, 20vw, 1fr));
     border-left: none;
     border-right: none;
     border-top: none; /* 중첩되는 부분의 위쪽 윤곽선 제거 */
@@ -143,7 +141,7 @@ h2 {
 }
 
 .main-content {
-  width: calc((100vw - 3vw) / 4);
+  width: 50vw;
   margin: 0px;
   flex: 1;
   display: flex;
@@ -174,7 +172,7 @@ h2 {
 
 header {
   text-align: center;
-  padding: 0;
+  padding: 10px;
   border-bottom: 1px solid var(--border-color);
   border-top: none;
 }
@@ -207,7 +205,7 @@ button i {
 }
 
 .content {
-  width: calc((100vw - 3vw) / 2);
+  width: 50wh;
   flex: 1;
   position: relative;
   border-top: none;
@@ -215,7 +213,6 @@ button i {
 
 .content h2 {
   font-size: 1.4em;
-  margin-bottom: 10px;
 }
 
 .content hr {
@@ -230,7 +227,7 @@ button i {
 }
 
 .side-content {
-  width: calc((100vw - 3vw) / 4);
+  width: 27vw;
   margin: 0px;
   flex: 1;
   display: flex;
@@ -252,6 +249,7 @@ button i {
   margin: 20px 0;
   background-color: var(--border-color);
 }  
+
 .side-content p {
   line-height: 2.3;
 }
