@@ -59,9 +59,8 @@ p {
 
 .side-menu {
   width: 12vw;
-  border_right: 1px solid black;
+  border-right: 1px solid black;
   box-sizing: border-box;
-  padding: 25px;
 }
 
 .additional-side-menu {
