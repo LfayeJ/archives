@@ -126,7 +126,9 @@ h2 {
     border-top: none; /* 중첩되는 부분의 위쪽 윤곽선 제거 */
     border-bottom: 1px solid black; /* 중첩되는 부분의 아래쪽 윤곽선만 남기기 */
     text-align: center;
-    background-color: #007cb8; /* 배경색 (선택사항) */
+    display: block;
+    width: 100%; /* 전체 너비로 설정 */
+    height: 100%; /* 전체 높이로 설정 */
     padding: 2vw;
     box-sizing: border-box;
     font-size: 2rem;
