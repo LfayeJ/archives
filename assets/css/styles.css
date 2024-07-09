@@ -167,12 +167,9 @@ p {
     border-style: none;
 }
 
-header, footer {
+header {
   text-align: center;
   padding: 0;
-}
-
-header {
   border-bottom: 1px solid var(--border-color);
   border-top: none;
 }
@@ -187,6 +184,7 @@ footer {
   border-bottom: none;
   margin-top: 20px;
   clear: both;
+  padding: 0px;
 }
 
 fieldset {
