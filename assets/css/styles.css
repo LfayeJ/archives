@@ -46,6 +46,7 @@ h2 {
 .container {
   display: flex;
   min-height: 100vh;
+  padding: 20px;  
   background-color: #fff;
   box-sizing: border-box;
 }
