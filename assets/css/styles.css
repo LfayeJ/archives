@@ -36,10 +36,6 @@ p {
   margin-bottom: 1em;
 }
 
-p:last-of-type {
-  margin-bottom: 0;
-}
-
 .border, .border_top, .border_right {
   border: 1px solid var(--border-color);
 }
