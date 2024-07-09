@@ -198,6 +198,14 @@ button i {
   line-height: 2.3;
 }
 
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
