@@ -112,7 +112,7 @@ p:last-of-type {
 }
 
 .main-content {
-  width: 83vw;
+  width: calc((100vw - 3vw) / 2);
   margin: 20px;
   flex: 1;
   display: flex;
@@ -121,8 +121,17 @@ p:last-of-type {
   border-top: none;
 }
 
+.side_content {
+  width: calc((100vw - 3vw) / 4);
+  margin: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: none;
+  
 .h-entry {
-            padding: 20px;
+  padding: 20px;
         }
 
 #search-bar {
