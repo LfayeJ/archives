@@ -7,6 +7,7 @@
 </head>
 <body>
     <div class="container">
+        {% include header.html %}
         <aside class="side-menu">
             <ul>
                 <li class="grid-item"><a href="{{ site.baseurl }}/">홈</a></li>
@@ -15,7 +16,6 @@
                 <li class="grid-item"><a href="{{ site.baseurl }}/etc">기타</a></li>
             </ul>
         </aside>     
-        {% include header.html %}
         <main class="main-content">
             {{ content }}
         </main>
