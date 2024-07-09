@@ -205,7 +205,7 @@ button i {
 }
 
 .content {
-  width: 50wh;
+  width: 100%
   flex: 1;
   position: relative;
   border-top: none;
