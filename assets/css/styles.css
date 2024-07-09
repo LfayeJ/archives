@@ -172,6 +172,7 @@ header {
   width: 97vw;
   text-align: center;
   padding: 20px;
+  margin: 0;
   border-bottom: 1px solid var(--border-color);
   border-top: none;
 }
