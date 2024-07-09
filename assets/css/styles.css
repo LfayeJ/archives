@@ -112,6 +112,7 @@ p {
     background-color: #007cb8; /* 배경색 (선택사항) */
     padding: 2vw;
     box-sizing: border-box;
+    position: relative; /* 부모 요소를 relative로 설정 */
 }
 
 /* 링크 스타일 */
@@ -121,6 +122,8 @@ p {
     display: block;
     background-color: #007cb8; /* 링크의 기본 배경색 */
     transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+    padding: 2vw; /* 기존의 padding 스타일을 여기에 추가 */
+    box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
 }
 
 /* 링크 호버 스타일 */
