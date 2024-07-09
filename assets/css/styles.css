@@ -126,9 +126,9 @@ h2 {
     text-decoration: none;
     color: black;
     display: block;
+    flex: 1;
     background-color: #007cb8; /* 링크의 기본 배경색 */
     transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
-    padding: 2vw; /* 기존의 padding 스타일을 여기에 추가 */
     box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
 }
 
