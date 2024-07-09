@@ -198,7 +198,7 @@ fieldset {
 }
 
 .content {
-  width: 100%
+  width: 50vw;
   flex: 1;
   position: relative;
   border-top: none;
