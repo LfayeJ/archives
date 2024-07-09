@@ -90,9 +90,13 @@ h2 {
   transition: background-color 0.3s ease;
 }
 
-.additional-side-menu ul li a:hover {
+.side-menu ul li a:hover {
   color: #007cb8;
   background-color: white; /* 호버 시 배경색을 변경 */
+}
+
+.additional-side-menu ul li a:hover {
+  color: #007cb8;
 }
 
 .additional-side-menu ul li a i {
