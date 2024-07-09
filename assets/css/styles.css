@@ -105,7 +105,6 @@ p {
 /* 그리드 항목 스타일 */
 .grid-item {
     border: 1px solid black; /* 그리드 항목 윤곽선 */
-    padding: 20px;
     text-align: center;
     background-color: #f0f0f0; /* 배경색 (선택사항) */
 }
