@@ -58,7 +58,7 @@ p {
 }
 
 .side-menu {
-  width: 12vw;
+  width: calc((100vw - 3vw) / 4);
   border-right: 1px solid black;
   box-sizing: border-box;
 }
