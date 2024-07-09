@@ -19,6 +19,7 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
+  box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
 }
 
 a {
@@ -124,11 +125,8 @@ h2 {
 /* 링크 스타일 */
 .grid-item a {
     text-decoration: none;
-    color: black;
     display: block;
     flex: 1;
-    background-color: #007cb8; /* 링크의 기본 배경색 */
-    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
     box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
 }
 
