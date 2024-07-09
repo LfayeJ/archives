@@ -32,6 +32,12 @@ a:hover {
   color: #007cb8;
 }
 
+h1 {
+    display: block;
+    margin: 0;
+    padding: 20px;  
+}
+
 h2 {
   padding: 20px;  
 }
