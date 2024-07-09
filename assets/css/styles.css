@@ -117,7 +117,6 @@ h2 {
     display: grid;
     gap: 0; /* 그리드 아이템 사이의 간격 */
     background-color: #007cb8; /* 배경색 (선택사항) */
-    padding: 2vw;
     box-sizing: border-box;
 }
 
