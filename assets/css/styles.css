@@ -104,9 +104,12 @@ p {
 
 /* 그리드 항목 스타일 */
 .grid-item {
+    grid-template-columns: repeat(auto-fill, minmax(calc((100vw - 3vw) / 4);, 1fr));
     border: 1px solid black; /* 그리드 항목 윤곽선 */
     text-align: center;
     background-color: #007cb8; /* 배경색 (선택사항) */
+    gap: 0px;
+    padding: 2vw;
 }
 
 /* 링크 스타일 */
