@@ -36,6 +36,12 @@ p {
   margin-bottom: 1em;
 }
 
+h1 {
+  padding: 20px;
+  margin: 20px;
+
+}
+
 h2 {
   padding: 20px;  
 }
