@@ -15,14 +15,14 @@
                 <li class="grid-item"><a href="{{ site.baseurl }}/etc">기타</a></li>
             </ul>
         </aside>     
+        {% include header.html %}
         <main class="main-content">
-            {% include header.html %}
             {{ content }}
-            {% include footer.html %}
         </main>
         <main class="side-content">
             {{ side-content }}
         </main>
+        {% include footer.html %}
     </div>
 </body>
 </html>
