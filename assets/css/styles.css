@@ -195,7 +195,7 @@ header {
   text-align: center;
   padding: 20px; !important
   margin: 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid black;
   border-top: none;
 }
 
@@ -206,8 +206,6 @@ header h1 {
 
 footer {
   width: 3vw;
-  border-top: 1px solid var(--border-color);
-  border-bottom: none;
   margin-top: 20px;
   clear: both;
 }
