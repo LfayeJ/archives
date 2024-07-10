@@ -123,6 +123,7 @@ h2 {
     width: 20vw; /* 전체 너비로 설정 */
     gap: 0; /* 그리드 아이템 사이의 간격 */
     background-color: #007cb8; /* 배경색 (선택사항) */
+    border-right: 1px solid black;
     box-sizing: border-box;
 }
 
