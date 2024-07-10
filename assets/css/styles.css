@@ -193,9 +193,9 @@ h2 {
 
 header {
   text-align: center;
-  padding: 20px; !important
+  padding: 20px; !important;
   margin: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--border-color);
   border-top: none;
 }
 
