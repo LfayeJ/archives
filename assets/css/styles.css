@@ -82,6 +82,7 @@ h2 {
   top: 0;
   right: 0;
   width: 3vw;
+  margin: 5px;
   padding: 0.7vw;
   border-left: 1px solid var(--border-color);
   z-index: 10; /* 다른 요소 위에 표시되도록 설정 */
