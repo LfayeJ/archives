@@ -46,7 +46,7 @@ h2 {
   border: 1px solid var(--border-color);
 }
 
-.post {
+.post-content {
   width: 50vw;
   padding: 20px;
 }
