@@ -121,7 +121,6 @@ h2 {
 .grid-container {
     display: grid;
     width: 20vw; /* 전체 너비로 설정 */
-    height: 100%; /* 전체 높이로 설정 */
     gap: 0; /* 그리드 아이템 사이의 간격 */
     background-color: #007cb8; /* 배경색 (선택사항) */
     box-sizing: border-box;
@@ -139,8 +138,6 @@ h2 {
     border-bottom: 1px solid black; /* 중첩되는 부분의 아래쪽 윤곽선만 남기기 */
     text-align: center;
     display: block;
-    width: 100%; /* 전체 너비로 설정 */
-    height: 100%; /* 전체 높이로 설정 */
     padding: 2vw;
     box-sizing: border-box;
     font-size: 2rem;
