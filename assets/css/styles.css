@@ -221,7 +221,7 @@ section {
   
 .content {
   max-width: 50vw;
-  width: 50vw;
+  width: 50vw; !important;
   flex: 1;
   margin: 0;
   padding: 20px;
