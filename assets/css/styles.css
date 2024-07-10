@@ -221,6 +221,7 @@ fieldset {
   border-top: none;
   margin: 0;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .content h2 {
