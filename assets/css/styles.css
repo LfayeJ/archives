@@ -214,6 +214,11 @@ fieldset {
   border: none;
 }
 
+section {
+  display: block; /* 기본값: 섹션 요소는 블록 레벨 요소입니다 */
+  padding: 20px; /* 내부 여백을 20px로 설정 */
+}
+  
 .content {
   max-width: 50vw;
   width: 50vw;
