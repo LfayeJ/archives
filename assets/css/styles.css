@@ -49,6 +49,7 @@ h2 {
 .post-content {
   width: 50vw;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .post-header {
@@ -94,7 +95,7 @@ h2 {
 
 .side-menu ul, .additional-side-menu ul {
   list-style: none;
-  padding: 0;
+  padding: ;
   margin: 0;
 }
 
@@ -115,6 +116,7 @@ h2 {
 
 .additional-side-menu ul li a i {
   font-size: 2rem;
+  margin: 10px;
 }
 
 /* 그리드 항목 스타일 */
@@ -125,6 +127,7 @@ h2 {
     background-color: #007cb8; /* 배경색 (선택사항) */
     border-right: 1px solid black;
     box-sizing: border-box;
+
 }
 
 .grid-container:hover {
@@ -163,7 +166,7 @@ h2 {
 }
 
 .main-content {
-  width: 97vw;
+  width: 97vw; 
   padding: 20px;
   flex: 1;
   display: flex;
@@ -197,6 +200,7 @@ header {
   margin: 0;
   border-bottom: 1px solid var(--border-color);
   border-top: none;
+  box-sizing: border-box;
 }
 
 header h1 {
@@ -208,6 +212,7 @@ footer {
   width: 3vw;
   margin-top: 20px;
   clear: both;
+  box-sizing: border-box;
 }
 
 fieldset {
@@ -217,10 +222,11 @@ fieldset {
 section {
   display: block; /* 기본값: 섹션 요소는 블록 레벨 요소입니다 */
   padding: 20px; /* 내부 여백을 20px로 설정 */
+  box-sizing: border-box;
 }
   
 .content {
-  max-width: 50vw; 
+  max-width: 50vw; !important;
   width: 50vw; !important;
   flex: 1;
   margin: 0;
@@ -250,7 +256,7 @@ section {
 }
 
 .side-content {
-  width: 27vw;
+  width: 27vw; !important;
   padding: 20px;
   flex: 1;
   display: flex;
