@@ -255,8 +255,19 @@ section {
     border-right: none;
   }
 
-  .main-content, .side-content {
+  .main-content, .side-content, .content {
     width: 100%;
+    padding: 10px;
+  }
+
+  .content {
+    max-width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .side-content {
+    width: 100% !important;
+    border-top: none;
   }
 }
 
