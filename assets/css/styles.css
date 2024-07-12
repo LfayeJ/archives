@@ -53,12 +53,12 @@ h2 {
 }
 
 .post-header {
+  width: 50vw;
   padding: 20px;
 }
 
-.post-title p-name {
+.post-title {
     white-space: pre-wrap; /* 자동 줄바꿈을 위해 설정 */
-    line-height: 25px; /* 예시 줄 간격 */
 }
 
 .container {
