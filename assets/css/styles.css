@@ -183,12 +183,11 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.8rem;
 }
 
 footer {
   width: 3vw;
-  margin-top: 20px;
 }
 
 section {
