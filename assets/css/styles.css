@@ -124,11 +124,6 @@ h1, h2 {
   box-sizing: border-box;
 }
 
-.grid-container:hover {
-  color: var(--hover-color);
-  background-color: var(--hover-color);
-}
-
 .grid-item {
   border-bottom: 1px solid black;
   text-align: center;
@@ -239,32 +234,32 @@ section {
   writing-mode: vertical-rl;
 }
 
+/* 반응형 디자인을 위한 미디어 쿼리 */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
 
   .side-menu {
-    width: 97vw;
+    width: 100%;
     height: auto;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
 
-  .additional-side-menu {
-    font-size: 0.7rem;
-    position: absolute;
-    border-left: none;
-    border-bottom: 1px solid var(--border-color);
+  .grid-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   
   .grid-item {
-    width: 97vw;
+    width: 100%;
     border-right: none;
-  }  
-  
+  }
+
   .main-content, .side-content {
-    width: 97vw;
+    width: 100%;
   }
 }
 
