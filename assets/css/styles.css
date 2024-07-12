@@ -87,32 +87,10 @@ h2 {
   top: 0;
   right: 0;
   width: 3vw;
-  align-items: center;
-  vertical-align: baseline;
-  padding-right: 0.7vw;
-  padding-left: 0.7vw;
+  padding: 0.7vw;
   margin-top: -0.125vw;
   border-left: 1px solid var(--border-color);
 }  
-
-.side-title {
-   -webkit-transform: rotate(90deg); /* Chrome, Safari 브라우저 */
-   -webkit-transform-origin: left top; /* Chrome, Safari 브라우저 */
-   -moz-transform: rotate(90deg); /* Firefox 브라우저 */
-   -moz-transform-origin: left top; /* Firefox 브라우저 */
-   -ms-transform: rotate(90deg); /* Internet Explorer 브라우저 */
-   -ms-transform-origin: left top; /* Internet Explorer 브라우저 */
-   -o-transform: rotate(90deg); /* Opera 브라우저 */
-   -o-transform-origin: left top; /* Opera 브라우저 */
-   transform: rotate(90deg); /* 표준 */
-   transform-origin: left top; /* 표준 */
-   padding-top: 10%; /* 위쪽에 10% 패딩 */
-   padding-left: 90%; /* 왼쪽에 90% 패딩 */
-   white-space: nowrap; /* 텍스트를 한 줄로 표시 */
-   font-size: 20px; /* 폰트 크기 */
-   text-align: center; /* 텍스트 중앙 정렬 */
-   line-height: 25px; /* 줄 간격 */
-}
 
 .side-menu h1, .additional-side-menu h1 {
   margin-top: 0;
@@ -144,6 +122,26 @@ h2 {
   font-size: 2rem;
   margin: 10px;
 }
+
+.side-title {
+   -webkit-transform: rotate(90deg); /* Chrome, Safari 브라우저 */
+   -webkit-transform-origin: left top; /* Chrome, Safari 브라우저 */
+   -moz-transform: rotate(90deg); /* Firefox 브라우저 */
+   -moz-transform-origin: left top; /* Firefox 브라우저 */
+   -ms-transform: rotate(90deg); /* Internet Explorer 브라우저 */
+   -ms-transform-origin: left top; /* Internet Explorer 브라우저 */
+   -o-transform: rotate(90deg); /* Opera 브라우저 */
+   -o-transform-origin: left top; /* Opera 브라우저 */
+   transform: rotate(90deg); /* 표준 */
+   transform-origin: left top; /* 표준 */
+   padding-top: 10%; /* 위쪽에 10% 패딩 */
+   padding-left: 90%; /* 왼쪽에 90% 패딩 */
+   white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+   font-size: 20px; /* 폰트 크기 */
+   text-align: center; /* 텍스트 중앙 정렬 */
+   line-height: 25px; /* 줄 간격 */
+}
+
 
 /* 그리드 항목 스타일 */
 .grid-container {
