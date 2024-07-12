@@ -8,6 +8,7 @@
 
 :root {
   --border-color: black;
+  --hover-color: #007cb8;
 }
 
 body, html {
@@ -15,11 +16,11 @@ body, html {
   min-width: 100vw;
   margin: 0;
   padding: 0;
-  font-family: "Orbit-Regular";
+  font-family: 'Orbit-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
-  box-sizing: border-box; /* padding이 포함된 전체 요소 크기 설정 */
+  box-sizing: border-box;
 }
 
 a {
@@ -29,16 +30,10 @@ a {
 }
 
 a:hover {
-  color: #007cb8;
+  color: var(--hover-color);
 }
 
-h1 {
-    display: block;
-    margin: 0;
-    padding: 20px;  
-}
-
-h2 {
+h1, h2 {
   margin: 0;
   padding: 20px;  
 }
@@ -47,40 +42,26 @@ h2 {
   border: 1px solid var(--border-color);
 }
 
-.post-content {
+.post-content, .post-header, .content, .side-content {
   width: 50vw;
   padding: 20px;
   box-sizing: border-box;
-}
-
-.post-header {
-  width: 50vw;
-  padding: 20px;
-}
-
-.post-title {
-    white-space: pre-wrap; /* 자동 줄바꿈을 위해 설정 */
 }
 
 .container {
   display: flex;
   min-height: 100vh;
   background-color: #fff;
-  box-sizing: border-box;
 }
 
 .side-menu, .additional-side-menu {
   min-height: 100vh;
-  background-color: #007cb8;
-  box-sizing: border-box;
+  background-color: var(--hover-color);
 }
 
 .side-menu {
   width: 20vw;
   border-right: 1px solid black;
-  box-sizing: border-box;
-  margin: 0px;
-  font-style: Bold;
 }
 
 .additional-side-menu {
@@ -89,30 +70,28 @@ h2 {
   right: 0;
   width: 3vw;
   padding: 0.7vw;
-  margin-top: -0.125vw;
   border-left: 1px solid var(--border-color);
-}  
+}
 
 .side-menu h1, .additional-side-menu h1 {
-  margin-top: 0;
   font-size: 1.2rem;
 }
 
 .side-menu ul, .additional-side-menu ul {
   list-style: none;
-  padding: ;
   margin: 0;
+  padding: 0;
 }
 
 .side-menu ul li a, .additional-side-menu ul li a {
-  color: black;
   display: block;
+  color: black;
   transition: background-color 0.3s ease;
 }
 
 .side-menu ul li a:hover {
-  color: #007cb8;
-  background-color: white; /* 호버 시 배경색을 변경 */
+  color: var(--hover-color);
+  background-color: white;
 }
 
 .additional-side-menu ul li a:hover {
@@ -125,99 +104,84 @@ h2 {
 }
 
 .side-title {
-   transform: rotate(90deg) !important; /* 표준 */
-   transform-origin: left top !important; /* 표준 */
-   padding-top: 10% !important; /* 위쪽에 10% 패딩 */
-   padding-left: 90% !important; /* 왼쪽에 90% 패딩 */
-   white-space: nowrap !important; /* 텍스트를 한 줄로 표시 */
-   font-size: 20px !important; /* 폰트 크기 */
-   text-align: center !important; /* 텍스트 중앙 정렬 */
-   line-height: 25px !important; /* 줄 간격 */
-        }
-
+  transform: rotate(90deg) !important;
+  transform-origin: left top !important;
+  padding-top: 10% !important;
+  padding-left: 90% !important;
+  white-space: nowrap !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  line-height: 25px !important;
+}
 
 /* 그리드 항목 스타일 */
 .grid-container {
-    display: grid;
-    width: 20vw; /* 전체 너비로 설정 */
-    gap: 0; /* 그리드 아이템 사이의 간격 */
-    background-color: #007cb8; /* 배경색 (선택사항) */
-    border-right: 1px solid black;
-    box-sizing: border-box;
-
+  display: grid;
+  width: 20vw;
+  gap: 0;
+  background-color: var(--hover-color);
+  border-right: 1px solid black;
+  box-sizing: border-box;
 }
 
 .grid-container:hover {
-    color: #007cb8; /*호버 시 글자색을 배경색과 동일한 색으로 변경 */
-    background-color: #007cb8; /* 배경색 (선택사항) */
+  color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 .grid-item {
-    border-left: none;
-    border-right: none;
-    border-top: none; /* 중첩되는 부분의 위쪽 윤곽선 제거 */
-    border-bottom: 1px solid black; /* 중첩되는 부분의 아래쪽 윤곽선만 남기기 */
-    text-align: center;
-    display: block;
-    padding: 2vw;
-    box-sizing: border-box;
-    font-size: 1.7rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+  display: block;
+  padding: 2vw;
+  box-sizing: border-box;
+  font-size: 1.7rem;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.grid-item:hover {
-    color: #007cb8; /*호버 시 글자색을 배경색과 동일한 색으로 변경 */
-    background-color: white; /* 호버 시 배경색을 변경 */
-    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
-  
-/* 링크 스타일 */
 .grid-item a {
-    text-decoration: none;
-    display: block;
-    flex: 1;
+  text-decoration: none;
+  display: block;
+  flex: 1;
 }
 
-/* 링크 호버 스타일 */
-.grid-item a:hover {
-    color: #007cb8; /*호버 시 글자색을 배경색과 동일한 색으로 변경 */
-    background-color: white; /* 호버 시 배경색을 변경 */
+.grid-item:hover, .grid-item a:hover {
+  color: var(--hover-color);
+  background-color: white;
 }
 
 .main-content {
-  width: 97vw; !important;
-  padding: 20px; !important;
+  width: 97vw !important;
+  padding: 20px !important;
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   box-sizing: border-box;
 }
- 
-.h-entry {
+
+.h-entry, #search-bar, header, footer, fieldset, section {
   padding: 20px;
-        }
+  box-sizing: border-box;
+}
 
 #search-bar {
-    margin: 32px auto;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 0 20px;
+  margin: 32px auto;
+  border: 1px solid #ccc;
+  border-radius: 20px;
 }
 
 #search-bar #search-input {
-    width: 200px;
-    border: none;
-    line-height: 44px;
-    outline: none;
-    border-style: none;
+  width: 200px;
+  border: none;
+  line-height: 44px;
+  outline: none;
 }
 
 header {
   text-align: center;
-  padding: 20px; !important;
   margin: 0;
   border-bottom: 1px solid var(--border-color);
-  border-top: none;
-  box-sizing: border-box;
 }
 
 header h1 {
@@ -229,7 +193,6 @@ footer {
   width: 3vw;
   margin-top: 20px;
   clear: both;
-  box-sizing: border-box;
 }
 
 fieldset {
@@ -237,64 +200,35 @@ fieldset {
 }
 
 section {
-  display: block; /* 기본값: 섹션 요소는 블록 레벨 요소입니다 */
-  padding: 20px; /* 내부 여백을 20px로 설정 */
-  box-sizing: border-box;
+  display: block;
 }
-  
+
 .content {
-  max-width: 50vw; !important;
-  width: 50vw; !important;
-  flex: 1;
-  margin: 0;
-  padding: 20px; !important;
-  box-sizing: border-box;
-  border-top: 1px solid var(--border-color); !important;
+  max-width: 50vw !important;
+  border-top: 1px solid var(--border-color) !important;
 }
 
-.content h2 {
+.content h2, .side-content h2 {
   font-size: 1.4em;
-  margin: 0;
-  padding: 20px;
 }
 
-.content hr {
+.content hr, .side-content hr {
   height: 1px;
-  margin: 0;
-  padding: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--border-color);
 }
 
-.content p {
+.content p, .side-content p {
   line-height: 2.3;
-  margin: 0;
-  padding: 20px;
 }
 
 .side-content {
-  width: 27vw; !important;
-  padding: 20px;
+  width: 27vw !important;
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   border-top: 1px solid var(--border-color);
-  box-sizing: border-box;
-}
-  
-.side-content h2 {
-  font-size: 1.4em;
-}
-
-.side-content hr {
-  height: 1px;
-  border: 1px solid var(--border-color);
-  background-color: var(--border-color);
-}  
-
-.side-content p {
-  line-height: 2.3;
 }
 
 .horizontal {
@@ -304,7 +238,7 @@ section {
 .vertical {
   writing-mode: vertical-rl;
 }
-  
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -312,10 +246,9 @@ section {
 
   .side-menu {
     width: 97vw;
-    height: auto
+    height: auto;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
-    flex-direction: column;
   }
 
   .additional-side-menu {
@@ -323,19 +256,16 @@ section {
     position: absolute;
     border-left: none;
     border-bottom: 1px solid var(--border-color);
-    }
   }
   
   .grid-item {
-    width: 97vw; /* 전체 너비로 설정 */
+    width: 97vw;
     border-right: none;
-    flex-direction: column;
   }  
   
   .main-content, .side-content {
     width: 97vw;
-    flex-direction: column;
-    }
+  }
 }
 
 @media (max-width: 480px) {
@@ -343,11 +273,11 @@ section {
     font-size: 1.5rem;
   }
 
-  .content h2 {
+  .content h2, .side-content h2 {
     font-size: 0.9rem;
   }
 
-  .content p {
+  .content p, .side-content p {
     font-size: 0.9rem;
   }
 }
