@@ -42,10 +42,14 @@ h1, h2 {
   border: 1px solid var(--border-color);
 }
 
-.post-content, .post-header, .content, .side-content {
+.content{
   width: 50vw;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.post-content, .post-header, .side-content { 
+  padding: 0px;
 }
 
 .container {
