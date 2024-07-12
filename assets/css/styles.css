@@ -26,11 +26,12 @@ body, html {
 a {
   text-decoration: none;
   color: black;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 a:hover {
   color: var(--hover-color);
+  background-color: white;
 }
 
 h1, h2 {
@@ -135,12 +136,6 @@ h1, h2 {
   box-sizing: border-box;
   font-size: 1.7rem;
   transition: background-color 0.3s, color 0.3s;
-}
-
-.grid-item a {
-  text-decoration: none;
-  display: block;
-  flex: 1;
 }
 
 .grid-item:hover, .grid-item a:hover {
