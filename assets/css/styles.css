@@ -56,6 +56,11 @@ h2 {
   padding: 20px;
 }
 
+.post-title p-name {
+    white-space: pre-wrap; /* 자동 줄바꿈을 위해 설정 */
+    line-height: 25px; /* 예시 줄 간격 */
+}
+
 .container {
   display: flex;
   min-height: 100vh;
