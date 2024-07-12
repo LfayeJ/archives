@@ -125,23 +125,15 @@ h2 {
 }
 
 .side-title {
-   -webkit-transform: rotate(90deg); /* Chrome, Safari 브라우저 */
-   -webkit-transform-origin: left top; /* Chrome, Safari 브라우저 */
-   -moz-transform: rotate(90deg); /* Firefox 브라우저 */
-   -moz-transform-origin: left top; /* Firefox 브라우저 */
-   -ms-transform: rotate(90deg); /* Internet Explorer 브라우저 */
-   -ms-transform-origin: left top; /* Internet Explorer 브라우저 */
-   -o-transform: rotate(90deg); /* Opera 브라우저 */
-   -o-transform-origin: left top; /* Opera 브라우저 */
-   transform: rotate(90deg); /* 표준 */
-   transform-origin: left top; /* 표준 */
-   padding-top: 10%; /* 위쪽에 10% 패딩 */
-   padding-left: 90%; /* 왼쪽에 90% 패딩 */
-   white-space: nowrap; /* 텍스트를 한 줄로 표시 */
-   font-size: 20px; /* 폰트 크기 */
-   text-align: center; /* 텍스트 중앙 정렬 */
-   line-height: 25px; /* 줄 간격 */
-}
+   transform: rotate(90deg) !important; /* 표준 */
+   transform-origin: left top !important; /* 표준 */
+   padding-top: 10% !important; /* 위쪽에 10% 패딩 */
+   padding-left: 90% !important; /* 왼쪽에 90% 패딩 */
+   white-space: nowrap !important; /* 텍스트를 한 줄로 표시 */
+   font-size: 20px !important; /* 폰트 크기 */
+   text-align: center !important; /* 텍스트 중앙 정렬 */
+   line-height: 25px !important; /* 줄 간격 */
+        }
 
 
 /* 그리드 항목 스타일 */
