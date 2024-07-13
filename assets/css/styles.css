@@ -95,9 +95,6 @@ h1, h2 {
 .additional-side-menu {
   display: flex;
   width: 3vw;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   height: 100%;
   padding: 0.7vw;
   border-left: 1px solid var(--border-color);
