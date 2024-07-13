@@ -47,6 +47,10 @@ h1, h2 {
   box-sizing: border-box;
 }
 
+.post-header {
+ width: 100%
+}
+
 .container {
   display: flex;
   min-height: 100vh;
