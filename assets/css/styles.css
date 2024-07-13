@@ -106,8 +106,8 @@ h1, h2 {
 }
 
 .side-title {
-  writing-mode: vertical-rl;
-  font-size: 12px;
+  writing-mode: vertical-lr;
+  font-size: 14px;
 }
 
 .grid-container {
@@ -187,13 +187,6 @@ footer {
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
 
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
