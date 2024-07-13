@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: default
 title: 소개
 ---
 
