@@ -130,27 +130,27 @@ h1, h2 {
   background-color: #fff;
 }
 
-.primary-content, .post-content, .post-header, .secondary-content {
+.content, .post-content, .post-header, .secondary-content {
   padding: 20px;
 }
 
-.primary-content {
+.content {
   width: 50vw;
   max-width: 50vw !important;
   border-right: 1px solid var(--border-color);
 }
 
-.primary-content h2, .secondary-content h2 {
+.content h2, .secondary-content h2 {
   font-size: 1.4em;
 }
 
-.primary-content hr, .secondary-content hr {
+.content hr, .secondary-content hr {
   height: 1px;
   border: 1px solid var(--border-color);
   background-color: var(--border-color);
 }
 
-.primary-content p, .secondary-content p {
+.content p, .secondary-content p {
   line-height: 2.1;
 }
 
@@ -225,12 +225,12 @@ footer {
     border-right: none;
   }
 
-  .main-content, .primary-content, .secondary-content {
+  .main-content, .content, .secondary-content {
     width: 100%;
     padding: 10px;
   }
 
-  .primary-content {
+  .content {
     max-width: 100% !important;
     margin-bottom: 20px;
   }
@@ -245,11 +245,11 @@ footer {
     font-size: 1.5rem;
   }
 
-  .primary-content h2, .secondary-content h2 {
+  .content h2, .secondary-content h2 {
     font-size: 0.9rem;
   }
 
-  .primary-content p, .secondary-content p {
+  .content p, .secondary-content p {
     font-size: 0.9rem;
   }
 }
