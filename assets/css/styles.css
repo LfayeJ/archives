@@ -98,7 +98,7 @@ h1, h2 {
   height: 100%;
   padding: 0.7vw;
   flex-direction: column;
-  justify-content: flex-end; /* Flexbox를 사용하여 요소를 아래로 정렬 */
+  justify-content: space-evenly /* Flexbox를 사용하여 요소를 아래로 정렬 */
   align-items: center;
   border-left: 1px solid var(--border-color);
   box-sizing: border-box;
@@ -107,17 +107,17 @@ h1, h2 {
 .additional-side-menu span, .additional-side-menu a {
   display: inline-flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
   align-items: center; /* 요소를 수직 중앙에 정렬 */
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .additional-side-menu a {
-  margin-left: 10px; /* 아이콘 사이에 간격 추가 */
+  margin-left: 20px; /* 아이콘 사이에 간격 추가 */
 }
 
 .side-title {
   white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
   writing-mode: vertical-lr;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .grid-container {
