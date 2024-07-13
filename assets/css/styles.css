@@ -114,8 +114,6 @@ h1, h2 {
   padding-left: 90% !important;
   white-space: nowrap !important;
   font-size: 20px !important;
-  text-align: center !important;
-  line-height: 25px !important;
 }
 
 /* 그리드 항목 스타일 */
@@ -124,7 +122,6 @@ h1, h2 {
   width: 20vw;
   gap: 0;
   background-color: var(--hover-color);
-  border-right: 1px solid black;
   box-sizing: border-box;
 }
 
@@ -191,7 +188,6 @@ section {
 
 .content {
   max-width: 50vw !important;
-  border-top: 1px solid var(--border-color) !important;
 }
 
 .content h2, .side-content h2 {
