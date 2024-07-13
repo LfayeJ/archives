@@ -11,12 +11,6 @@
   --hover-color: #007cb8;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html, body {
   min-height: 100vh;
   min-width: 100vw;
@@ -43,6 +37,12 @@ h1, h2 {
 
 .border {
   border: 1px solid var(--border-color);
+}
+
+.post-content, .post-header, .primary-content, .secondary-content {
+  width: 50vw;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .container {
@@ -128,11 +128,6 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-}
-
-.content, .post-content, .post-header, .secondary-content, .primary-content {
-  padding: 20px; !important;
-  box-sizing: border-box;
 }
 
 .primary-content, .content {
