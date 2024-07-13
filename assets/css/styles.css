@@ -11,16 +11,19 @@
   --hover-color: #007cb8;
 }
 
-body, html {
-  min-height: 100vh;
-  min-width: 100vw;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  min-width: 100vw;
   font-family: 'Orbit-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
-  box-sizing: border-box;
 }
 
 a {
@@ -38,18 +41,41 @@ h1, h2 {
   margin: 0;
 }
 
-.border, .border_top, .border_right {
+.border {
   border: 1px solid var(--border-color);
 }
 
-.primary-content{
-  width: 50vw;
+.primary-content, .post-content, .post-header, .secondary-content {
   padding: 20px;
-  box-sizing: border-box;
 }
 
-.post-content, .post-header, .secondary-content  { 
-  padding: 0px;
+.primary-content {
+  width: 50vw;
+  max-width: 50vw !important;
+  border-right: 1px solid var(--border-color);
+}
+
+.primary-content h2, .secondary-content h2 {
+  font-size: 1.4em;
+}
+
+.primary-content hr, .secondary-content hr {
+  height: 1px;
+  border: 1px solid var(--border-color);
+  background-color: var(--border-color);
+}
+
+.primary-content p, .secondary-content p {
+  line-height: 2.1;
+}
+
+.secondary-content {
+  width: 27vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 1px solid var(--border-color);
 }
 
 .container {
@@ -65,26 +91,11 @@ h1, h2 {
 
 .side-menu {
   width: 20vw;
-  border-right: 1px solid black;
-}
-
-.additional-side-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 3vw;
-  padding: 0.7vw;
-  border-left: 1px solid var(--border-color);
-}
-
-.side-menu h1, .additional-side-menu h1 {
-  font-size: 1.2rem;
+  border-right: 1px solid var(--border-color);
 }
 
 .side-menu ul, .additional-side-menu ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .side-menu ul li a, .additional-side-menu ul li a {
@@ -96,6 +107,15 @@ h1, h2 {
 .side-menu ul li a:hover {
   color: var(--hover-color);
   background-color: white;
+}
+
+.additional-side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3vw;
+  padding: 0.7vw;
+  border-left: 1px solid var(--border-color);
 }
 
 .additional-side-menu ul li a:hover {
@@ -116,21 +136,16 @@ h1, h2 {
   font-size: 20px !important;
 }
 
-/* 그리드 항목 스타일 */
 .grid-container {
   display: grid;
   width: 20vw;
-  gap: 0;
   background-color: var(--hover-color);
-  box-sizing: border-box;
 }
 
 .grid-item {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--border-color);
   text-align: center;
-  display: block;
   padding: 2vw;
-  box-sizing: border-box;
   font-size: 1.7rem;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -141,17 +156,15 @@ h1, h2 {
 }
 
 .main-content {
-  width: 77vw; /* Adjusted width to accommodate the sidebar */
+  width: 77vw;
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  box-sizing: border-box;
 }
 
 .h-entry, #search-bar, header, footer, fieldset, section {
   padding: 20px;
-  box-sizing: border-box;
 }
 
 #search-bar {
@@ -169,50 +182,15 @@ h1, h2 {
 
 header {
   text-align: center;
-  margin: 0;
   border-bottom: 1px solid var(--border-color);
 }
 
 header h1 {
-  margin: 0;
   font-size: 1.8rem;
 }
 
 footer {
   width: 3vw;
-}
-
-section {
-  display: block;
-}
-
-.primary-content {
-  max-width: 50vw !important;
-  box-sizing: border-box;
-  border-right: 1px solid var(--border-color);
-}
-
-.primary-content h2, .secondary-content h2 {
-  font-size: 1.4em;
-}
-
-.primary-content hr, .secondary-content hr {
-  height: 1px;
-  border: 1px solid var(--border-color);
-  background-color: var(--border-color);
-}
-
-.primary-content p, .secondary-content p {
-  line-height: 2.1;
-}
-
-.secondary-content {
-  width: 27vw; /* Ensure content and sidebar take up full width together */
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-top: 1px solid var(--border-color);
 }
 
 .horizontal {
@@ -223,7 +201,7 @@ section {
   writing-mode: vertical-rl;
 }
 
-/* 반응형 디자인을 위한 미디어 쿼리 */
+/* 반응형 디자인 */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -247,13 +225,7 @@ section {
     border-right: none;
   }
 
-   .main-content {
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-  }
-
-  .primary-content, .secondary-content {
+  .main-content, .primary-content, .secondary-content {
     width: 100%;
     padding: 10px;
   }
@@ -264,7 +236,6 @@ section {
   }
 
   .secondary-content {
-    width: 100% !important;
     border-top: none;
   }
 }
