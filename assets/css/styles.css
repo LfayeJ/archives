@@ -67,7 +67,7 @@ h1, h2 {
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
 
-.content-wrapper {
+.main-content {
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
@@ -134,19 +134,8 @@ h1, h2 {
   background-color: white;
 }
 
-.main-content {
-  margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  width: calc(100% - 20vw); /* Adjusted width to exclude side-menu */
-  flex: 1;
-  display: flex;
-  flex-direction: row; /* Ensure children are laid out in a row */
-  background-color: #fff;
-  box-sizing: border-box;
-}
-
 .primary-content, .content {
-  width: 50vw; 
-  max-width: 50vw
+  width: 50vw;
   box-sizing: border-box;
 }
 
@@ -182,7 +171,8 @@ h1, h2 {
 }
 
 header {
-  width: 100%;
+  width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
+  margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: center;
   border-bottom: 1px solid var(--border-color);
   box-sizing: border-box;
@@ -235,15 +225,14 @@ footer {
     border-right: none;
   }
   
- .content-wrapper {
+.main-content {
     margin-left: 0; /* side-menu 너비만큼의 여백 제거 */
     margin-right: 0; /* footer 너비만큼의 여백 제거 */
     width: 100%;
     flex-direction: column;
   }
   
-    .main-content {
-    margin-left: 0; /* side-menu 너비만큼의 여백 제거 */
+  .primary-content, .secondary-content {
     width: 100%;
     padding: 10px;
     flex-direction: column;
@@ -257,22 +246,25 @@ footer {
   .secondary-content {
     border-top: none;
   }
-  
-    footer {
+
+  header {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer {
     width: 100%;
     height: auto;
     position: relative;
   }
-
 }
-
 
 @media (max-width: 480px) {
   header h1, .side-menu h1 {
     font-size: 1.5rem;
   }
 
- .primary-content h2, .secondary-content h2 {
+  .primary-content h2, .secondary-content h2 {
     font-size: 0.9rem;
   }
 
