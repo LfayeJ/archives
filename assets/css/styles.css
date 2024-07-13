@@ -93,31 +93,30 @@ h1, h2 {
 }
 
 .additional-side-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
+  display: flex;
   width: 3vw;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
   padding: 0.7vw;
   border-left: 1px solid var(--border-color);
   box-sizing: border-box;
 }
 
-.additional-side-menu ul li a:hover {
-  color: white;
-}
-
-.additional-side-menu ul li a i {
-  font-size: 2rem;
-  margin: 10px;
+.additional-side-menu a {
+  margin: 10px 0;
 }
 
 .side-title {
-  transform: rotate(90deg) !important;
-  transform-origin: left top !important;
-  padding-top: 10% !important;
-  padding-left: 90% !important;
-  white-space: nowrap !important;
-  font-size: 20px !important;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+  transform-origin: bottom left;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
 }
 
 .grid-container {
