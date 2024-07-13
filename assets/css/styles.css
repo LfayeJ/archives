@@ -131,25 +131,21 @@ h1, h2 {
 }
 
 .content, .post-content, .post-header, .secondary-content, .primary-content {
-  padding: 20px;
+  padding: 20px; !important;
+  box-sizing: border-box;
 }
 
 .primary-content, .content {
   width: 50vw; 
   max-width: 50vw !important;
+  box-sizing: border-box;
 }
 
 .content h2, .secondary-content h2 {
   font-size: 1.4em;
 }
 
-.content hr, .secondary-content hr {
-  height: 1px;
-  border: 1px solid var(--border-color);
-  background-color: var(--border-color);
-}
-
-.content p, .secondary-content p {
+.primary-content p, .content p, .secondary-content p {
   line-height: 2.1;
 }
 
@@ -182,6 +178,7 @@ h1, h2 {
 header {
   text-align: center;
   border-bottom: 1px solid var(--border-color);
+  box-sizing: border-box;
 }
 
 header h1 {
@@ -224,12 +221,12 @@ footer {
     border-right: none;
   }
 
-  .main-content, .content, .secondary-content {
+  .main-content, .primary-content, .secondary-content {
     width: 100%;
     padding: 10px;
   }
 
-  .content {
+  .primary-content {
     max-width: 100% !important;
     margin-bottom: 20px;
   }
@@ -244,11 +241,11 @@ footer {
     font-size: 1.5rem;
   }
 
-  .content h2, .secondary-content h2 {
+ .primary-content h2, .secondary-content h2 {
     font-size: 0.9rem;
   }
 
-  .content p, .secondary-content p {
+  .primary-content p, .secondary-content p {
     font-size: 0.9rem;
   }
 }
