@@ -96,7 +96,7 @@ h1, h2 {
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 3vw;
   padding: 0.7vw;
   border-left: 1px solid var(--border-color);
   box-sizing: border-box;
