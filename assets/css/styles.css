@@ -188,6 +188,7 @@ section {
 
 .content {
   max-width: 50vw !important;
+  border-right: 1px solid var(--border-color);
 }
 
 .content h2, .side-content h2 {
