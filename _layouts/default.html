@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <header>
+        {% include header.html %}
+    </header>
     <div class="container">
         <aside class="side-menu">
             <div class="grid-container">
@@ -14,9 +17,8 @@
                 <a class="grid-item" href="{{ site.baseurl }}/archive">아카이브</a>
                 <a class="grid-item" href="{{ site.baseurl }}/etc">기타</a>
             </div>
-        </aside> 
-        <div class="main-content">
-            {% include header.html %}
+        </aside>
+        <div class="content-wrapper">
             <main class="primary-content">
                 {{ content }}
             </main>
@@ -24,7 +26,7 @@
                 {{ secondary_content }}
             </section>
         </div>
-        {% include footer.html %}
     </div>
+    {% include footer.html %}
 </body>
 </html>
