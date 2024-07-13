@@ -16,13 +16,15 @@
             </div>
         </aside> 
         <div class="main-content">
-        {% include header.html %}
-          <main class="content">
-                 {{ content }}
-                 {{ side-content }}
-          </main>
-         </div>
-     {% include footer.html %}
+            {% include header.html %}
+            <main class="primary-content">
+                {{ content }}
+            </main>
+            <section class="secondary-content">
+                {{ secondary_content }}
+            </section>
+        </div>
+        {% include footer.html %}
     </div>
 </body>
 </html>
