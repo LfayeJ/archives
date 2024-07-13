@@ -18,6 +18,9 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -40,7 +43,6 @@ h1, h2 {
 }
 
 .post-content, .post-header, .primary-content, .secondary-content {
-  width: 50vw;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -52,7 +54,6 @@ h1, h2 {
 }
 
 .side-menu, .additional-side-menu {
-  min-height: 100vh;
   background-color: var(--hover-color);
 }
 
@@ -66,8 +67,13 @@ h1, h2 {
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
 
-.side-menu ul, .additional-side-menu ul {
-  list-style: none;
+.content-wrapper {
+  margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
+  margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
+  width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
+  display: flex;
+  flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
+  box-sizing: border-box;
 }
 
 .side-menu ul li a, .additional-side-menu ul li a {
@@ -140,7 +146,7 @@ h1, h2 {
 
 .primary-content, .content {
   width: 50vw; 
-  max-width: 50vw !important;
+  max-width: 50vw
   box-sizing: border-box;
 }
 
@@ -153,10 +159,8 @@ h1, h2 {
 }
 
 .secondary-content {
-  width: 27vw; !important;
-  flex: 1;
-  display: flex;
-  background-color: #fff;
+  width: calc(50% - 3vw); /* Adjust width to fit with the primary content */
+  box-sizing: border-box;
   border-left: 1px solid var(--border-color);
 }
 
@@ -178,6 +182,7 @@ h1, h2 {
 }
 
 header {
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid var(--border-color);
   box-sizing: border-box;
@@ -188,7 +193,13 @@ header h1 {
 }
 
 footer {
+  position: fixed;
+  top: 0;
+  right: 0;
   width: 3vw;
+  height: 100vh; /* 화면 전체 높이 차지 */
+  background-color: var(--hover-color);
+  overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
 
 .horizontal {
@@ -223,7 +234,14 @@ footer {
     width: 100%;
     border-right: none;
   }
-
+  
+ .content-wrapper {
+    margin-left: 0; /* side-menu 너비만큼의 여백 제거 */
+    margin-right: 0; /* footer 너비만큼의 여백 제거 */
+    width: 100%;
+    flex-direction: column;
+  }
+  
     .main-content {
     margin-left: 0; /* side-menu 너비만큼의 여백 제거 */
     width: 100%;
@@ -239,7 +257,15 @@ footer {
   .secondary-content {
     border-top: none;
   }
+  
+    footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
 }
+
 
 @media (max-width: 480px) {
   header h1, .side-menu h1 {
