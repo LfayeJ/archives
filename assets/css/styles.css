@@ -130,12 +130,12 @@ h1, h2 {
   background-color: #fff;
 }
 
-.content, .post-content, .post-header, .secondary-content {
+.content, .post-content, .post-header, .secondary-content, .primary-content {
   padding: 20px;
 }
 
 .content {
-  width: 50vw;
+  width: 50vw; 
   max-width: 50vw !important;
   border-right: 1px solid var(--border-color);
 }
