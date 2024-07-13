@@ -45,39 +45,6 @@ h1, h2 {
   border: 1px solid var(--border-color);
 }
 
-.primary-content, .post-content, .post-header, .secondary-content {
-  padding: 20px;
-}
-
-.primary-content {
-  width: 50vw;
-  max-width: 50vw !important;
-  border-right: 1px solid var(--border-color);
-}
-
-.primary-content h2, .secondary-content h2 {
-  font-size: 1.4em;
-}
-
-.primary-content hr, .secondary-content hr {
-  height: 1px;
-  border: 1px solid var(--border-color);
-  background-color: var(--border-color);
-}
-
-.primary-content p, .secondary-content p {
-  line-height: 2.1;
-}
-
-.secondary-content {
-  width: 27vw;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-top: 1px solid var(--border-color);
-}
-
 .container {
   display: flex;
   min-height: 100vh;
@@ -156,11 +123,44 @@ h1, h2 {
 }
 
 .main-content {
-  width: 77vw;
+  width: 77vw; !important;
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #fff;
+}
+
+.primary-content, .post-content, .post-header, .secondary-content {
+  padding: 20px;
+}
+
+.primary-content {
+  width: 50vw;
+  max-width: 50vw !important;
+  border-right: 1px solid var(--border-color);
+}
+
+.primary-content h2, .secondary-content h2 {
+  font-size: 1.4em;
+}
+
+.primary-content hr, .secondary-content hr {
+  height: 1px;
+  border: 1px solid var(--border-color);
+  background-color: var(--border-color);
+}
+
+.primary-content p, .secondary-content p {
+  line-height: 2.1;
+}
+
+.secondary-content {
+  width: 27vw; !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 1px solid var(--border-color);
 }
 
 .h-entry, #search-bar, header, footer, fieldset, section {
