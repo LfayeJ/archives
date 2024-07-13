@@ -109,14 +109,8 @@ h1, h2 {
 }
 
 .side-title {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%) rotate(270deg);
-  transform-origin: bottom left;
-  white-space: nowrap;
+  writing-mode: vertical-rl;
   font-size: 12px;
-  text-align: center;
 }
 
 .grid-container {
