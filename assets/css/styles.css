@@ -112,7 +112,7 @@ h1, h2 {
   position: absolute;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%) rotate(270deg);
   transform-origin: bottom left;
   white-space: nowrap;
   font-size: 12px;
