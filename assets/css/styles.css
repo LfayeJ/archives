@@ -93,6 +93,7 @@ h1, h2 {
 }
 
 .additional-side-menu {
+  position: fixed;
   display: flex;
   width: 3vw;
   height: 100%;
