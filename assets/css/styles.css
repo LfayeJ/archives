@@ -56,6 +56,7 @@ h1, h2 {
   display: flex;
   min-height: 100vh;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 .side-menu, .additional-side-menu {
@@ -106,12 +107,7 @@ h1, h2 {
 
 .additional-side-menu span, .additional-side-menu a {
   display: inline-flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
-  align-items: center; /* 요소를 수직 중앙에 정렬 */
-  margin: 10px 0;
-}
-
-.additional-side-menu a {
-  margin-left: 20px; /* 아이콘 사이에 간격 추가 */
+  align-items: baseline;
 }
 
 .side-title {
