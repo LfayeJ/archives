@@ -191,7 +191,6 @@ h1, h2 {
 header {
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
   text-align: left;
   border-bottom: 1px solid var(--border-color);
   box-sizing: border-box;
@@ -222,10 +221,14 @@ footer {
     width: 95vw;
   }
 
+  .secondary-content {
+    width: 25vw;
+    box-sizing: border-box;
+  }    
+  
    header {
     width: calc(100% - 25vw); /* Adjusted width to exclude side-menu and footer */
     margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-    margin-right: 5vw; /* footer의 너비만큼 오른쪽 여백 추가 */
   }
 }
 
