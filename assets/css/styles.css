@@ -99,15 +99,17 @@ h1, h2 {
   width: 3vw;
   height: 100%;
   padding: 0.7vw;
-  justify-content: space-around /* Flexbox를 사용하여 요소를 아래로 정렬 */
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: flex-start; /* 아이템들을 위쪽에 정렬 */
+  align-items: center; /* 아이템들을 수직 가운데에 정렬 */
   border-left: 1px solid var(--border-color);
   box-sizing: border-box;
 }
 
 .additional-side-menu span, .additional-side-menu a {
-  display: inline-flex; /* Flexbox를 사용하여 요소를 가로로 정렬 */
-  align-items: baseline;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* 아이템들을 수직으로 정렬 */
 }
 
 .side-title {
