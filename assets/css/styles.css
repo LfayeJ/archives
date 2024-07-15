@@ -148,6 +148,10 @@ h1, h2 {
   background-color: white;
 }
 
+.content {
+  padding-right: 20px;
+}
+
 .primary-content, .content {
   width: 50vw;
   box-sizing: border-box;
@@ -211,6 +215,7 @@ footer {
 }
 
 
+
 /* 반응형 디자인 */
 @media (max-width: 1024px) {
   .additional-side-menu {
@@ -272,7 +277,7 @@ footer {
     width: 95vw;
     flex-direction: column;
   }
-  
+
  .content, .primary-content, .secondary-content {
     width: 95vw;
     padding: 10px;
