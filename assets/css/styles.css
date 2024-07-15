@@ -76,7 +76,7 @@ h1, h2 {
 .main-content {
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
-  width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
+  width: 77vw; /* Adjusted width to exclude side-menu and footer */
   display: flex;
   flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
   box-sizing: border-box;
@@ -217,7 +217,7 @@ footer {
     width: 5vw;
   }
   
-  .main-content {
+   .content, .main-content {
     width: 95vw;
   }
 
@@ -227,7 +227,7 @@ footer {
   }    
   
    header {
-    width: calc(100% - 25vw); /* Adjusted width to exclude side-menu and footer */
+    width: 95vw; /* Adjusted width to exclude side-menu and footer */
     margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   }
 }
