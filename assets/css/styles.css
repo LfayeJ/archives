@@ -222,8 +222,8 @@ footer {
   }
 
    header {
-    width: 95vw;
-    margin-left: 0;
+    width: calc(100% - 25vw); /* Adjusted width to exclude side-menu and footer */
+    margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   }
 }
 
