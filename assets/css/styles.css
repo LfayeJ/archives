@@ -166,7 +166,11 @@ h1, h2 {
   border-left: 1px solid var(--border-color);
 }
 
-.h-entry, #search-bar, header, fieldset, section {
+.h-entry {
+  padding: 0px;
+}
+  
+#search-bar, header, fieldset, section {
   padding: 20px;
 }
 
