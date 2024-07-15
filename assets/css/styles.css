@@ -117,9 +117,8 @@ h1, h2 {
   margin-bottom: 0; /* 마지막 아이템의 마진을 제거 */
 }
 
-.additional-side-menu i, .additional-side-menu img {
-  width: 25px; /* 원하는 아이콘 너비로 설정 */
-  height: 25px; /* 원하는 아이콘 높이로 설정 */
+.additional-side-menu i.far {
+  font-size: 25px; /* 원하는 아이콘 크기로 설정 */
 }
 
 .side-title {
