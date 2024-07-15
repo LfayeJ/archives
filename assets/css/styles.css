@@ -110,6 +110,11 @@ h1, h2 {
   display: flex;
   align-items: center;
   flex-direction: column; /* 아이템들을 수직으로 정렬 */
+  margin-bottom: 20px; /* 아이템 간의 간격 설정 */
+}
+
+.additional-side-menu span:last-child, .additional-side-menu a:last-child {
+  margin-bottom: 0; /* 마지막 아이템의 마진을 제거 */
 }
 
 .side-title {
