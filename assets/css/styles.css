@@ -79,6 +79,7 @@ h1, h2 {
   margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
   width: 77vw; /* Adjusted width to exclude side-menu and footer */
   display: flex;
+  padding: 0;
   flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
   box-sizing: border-box;
 }
@@ -151,7 +152,6 @@ h1, h2 {
 
 .primary-content {
   width: 50vw;
-  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -168,7 +168,6 @@ h1, h2 {
 }
 
 .secondary-content {
-  padding: 20px;
   width: 27vw; /* Adjust width to fit with the primary content */
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
