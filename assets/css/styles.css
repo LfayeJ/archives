@@ -225,6 +225,16 @@ footer {
     border-bottom: 1px solid var(--border-color);
   }
 
+   .additional-side-menu {
+    width: 5vw;
+  }
+
+  .additional-side-menu i.far, .additional-side-menu i.fab {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+
   .grid-container {
     width: 97vw;
     display: flex;
@@ -258,7 +268,7 @@ footer {
     margin-left: 0;
   }
   
- footer {
+ .side-title  {
    font-size: 0.9rem;
  }   
 }
