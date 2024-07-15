@@ -117,6 +117,11 @@ h1, h2 {
   margin-bottom: 0; /* 마지막 아이템의 마진을 제거 */
 }
 
+.additional-side-menu i, .additional-side-menu img {
+  width: 20px; /* 원하는 아이콘 너비로 설정 */
+  height: 20px; /* 원하는 아이콘 높이로 설정 */
+}
+
 .side-title {
   white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
   writing-mode: vertical-lr;
