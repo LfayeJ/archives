@@ -149,13 +149,14 @@ h1, h2 {
   background-color: white;
 }
 
-.content {
-  padding-right: 20px;
+.primary-content {
+  width: 50vw;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.primary-content, .content {
-  width: 50vw;
-  box-sizing: border-box;
+.content {
+  padding: 0;
 }
 
 .content h2, .secondary-content h2 {
@@ -167,6 +168,7 @@ h1, h2 {
 }
 
 .secondary-content {
+  padding: 20px;
   width: 27vw; /* Adjust width to fit with the primary content */
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
@@ -176,10 +178,6 @@ h1, h2 {
   padding: 0px;
 }
   
-#search-bar, header, fieldset {
-  padding: 20px;
-}
-
 #search-bar {
   margin: 10px auto;
   border: 1px solid #ccc;
@@ -194,6 +192,7 @@ h1, h2 {
 }
 
 header {
+  padding: 20px;
   width: 77vw; /* Adjusted width to exclude side-menu and footer */
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: left;
@@ -214,8 +213,6 @@ footer {
   background-color: var(--hover-color);
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
-
-
 
 /* 반응형 디자인 */
 @media (max-width: 1024px) {
