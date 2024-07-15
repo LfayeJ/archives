@@ -118,6 +118,8 @@ h1, h2 {
 }
 
 .additional-side-menu i.far, .additional-side-menu i.fab {
+  width: 24px; /* 원하는 아이콘 너비로 설정 */
+  height: 24px;
   font-size: 25px; /* 원하는 아이콘 크기로 설정 */
 }
 
