@@ -6,6 +6,10 @@
   src: url('Orbit-Regular.woff2') format('woff2');
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --border-color: black;
   --hover-color: #007cb8;
@@ -20,6 +24,7 @@ html, body {
   -webkit-backface-visibility: hidden;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* 수평 스크롤 방지 */
   box-sizing: border-box;
 }
 
@@ -76,7 +81,6 @@ h1, h2 {
 
 .main-content {
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  margin-right: 3vw; /* footer의 너비만큼 오른쪽 여백 추가 */
   width: 77vw; /* Adjusted width to exclude side-menu and footer */
   display: flex;
   padding: 0;
