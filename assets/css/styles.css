@@ -145,7 +145,8 @@ h1, h2 {
   border-bottom: 1px solid var(--border-color);
   text-align: center;
   padding: 1vw;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  font-weight: 700;
   transition: background-color 0.3s, color 0.3s;
 }
 
