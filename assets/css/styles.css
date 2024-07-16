@@ -63,6 +63,7 @@ h1, h2 {
   min-height: 100vh;
   background-color: #fff;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .side-menu, .additional-side-menu {
