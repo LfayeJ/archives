@@ -145,7 +145,7 @@ h1, h2 {
 .grid-item {
   border-bottom: 1px solid var(--border-color);
   text-align: center;
-  padding: 2vw;
+  padding: 1vw;
   font-size: 1.7rem;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -288,7 +288,6 @@ footer {
   }
 
  header {
-    width: 100vw;
     margin-left: 0;
   }
   
