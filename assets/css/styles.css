@@ -102,6 +102,8 @@ h1, h2 {
 
 .additional-side-menu {
   position: fixed;
+  top: 0;
+  right: 0;
   display: flex;
   width: 3vw;
   height: 100%;
@@ -231,7 +233,11 @@ footer {
     width: 25vw;
     box-sizing: border-box;
   }    
-  
+
+ footer {
+  width: 5vw;
+  } 
+}
 
 @media (max-width: 768px) {
   .container {
@@ -244,10 +250,6 @@ footer {
     position: relative; /* fixed 위치를 relative로 변경 */
     border-right: none;
     border-bottom: 1px solid var(--border-color);
-  }
-
-   .additional-side-menu {
-    width: 5vw;
   }
 
   .additional-side-menu i.far, .additional-side-menu i.fab {
