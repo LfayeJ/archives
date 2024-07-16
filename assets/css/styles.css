@@ -129,6 +129,11 @@ h1, h2 {
   font-size: 25px; /* 원하는 아이콘 크기로 설정 */
 }
 
+.additional-side-menu a:hover {
+  color: white;
+  background-color: var(--hover-color);
+}
+  
 .side-title {
   white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
   writing-mode: vertical-lr;
