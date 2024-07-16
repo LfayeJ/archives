@@ -146,7 +146,7 @@ h1, h2 {
   text-align: center;
   padding: 1vw;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   transition: background-color 0.3s, color 0.3s;
   height: 15vh;
 }
