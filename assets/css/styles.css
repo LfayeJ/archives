@@ -76,6 +76,7 @@ h1, h2 {
   position: fixed; /* 화면에 고정 */
   top: 0;
   left: 0;
+  align-items: center; /* 수직 가운데 정렬 */
   height: 100vh; /* 화면 전체 높이 차지 */
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
 }
