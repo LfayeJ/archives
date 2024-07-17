@@ -281,8 +281,11 @@ footer {
   }
   
   .grid-item {
-    width: 95vw;
+    width: 95vw; 
+    height: 9vh;
     border-right: none;
+  
+}
   }
   
 .main-content {
