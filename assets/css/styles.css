@@ -293,6 +293,7 @@ footer {
     margin-right: 0; /* footer 너비만큼의 여백 제거 */
     width: 95vw;
     flex-direction: column;
+    border-top: none;
   }
 
  .content, .primary-content, .secondary-content {
