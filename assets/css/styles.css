@@ -144,8 +144,6 @@ h1, h2 {
   display: grid;
   width: 20vw;
   background-color: var(--hover-color);
-  justify-content: center; /* 그리드 항목의 수평 정렬 */
-  align-content: center; /* 그리드 항목의 수직 정렬 */
 }
 
 .grid-item {
