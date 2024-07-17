@@ -304,6 +304,7 @@ footer {
 
   .primary-content {
     margin-bottom: 20px;
+    border-top: none;
   }
 
  header {
