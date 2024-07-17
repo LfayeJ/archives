@@ -78,6 +78,7 @@ h1, h2 {
   left: 0;
   height: 100vh; /* 화면 전체 높이 차지 */
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
+  overflow-x: hidden; 
 }
 
 .main-content {
