@@ -8,7 +8,7 @@ tags: [contemporary art, Hyperlinks, Transcending Hierarchies, Min Ji-hoon, Yang
 ---
 
 
-Hyperlinks Affirm Hierarchies
+**Hyperlinks Affirm Hierarchies**
 
 The global lockdowns during the Covid-19 pandemic brought about significant turning points and reflections on our reality. The sudden 'halt' faced by modern civilization, which seemed to be racing ceaselessly towards progress and prosperity, caused immense confusion in every aspect of life. However, the world did not entirely stop accelerating. Traditional ways of human interaction were blocked during this period of contactlessness and pause, but the non-physical network of the internet remained intact. This network, which tightly binds the world together, almost seems like a firm promise that our connections and bonds will never be broken, no matter how our reality and forms of life change.
 
