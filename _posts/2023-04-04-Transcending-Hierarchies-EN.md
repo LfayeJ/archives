@@ -1,5 +1,12 @@
-### Transcending Hierarchies — Exhibition Introduction
-**April 4, 2023 • Lee Ji-won**
+---
+layout: post
+title: "Transcending Hierarchies — Exhibition Introduction"
+date: 2023-04-04 15:42:00 +0900
+author: Jiwon Lee
+categories: archive
+tags: [contemporary art, Hyperlinks, Transcending Hierarchies, Min Ji-hoon, Yang Na-young]
+---
+
 
 Hyperlinks Affirm Hierarchies
 
