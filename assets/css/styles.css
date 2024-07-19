@@ -248,22 +248,29 @@ button:hover {
     background-color: #5555ee;
 }
 
-/* 검색 결과 스타일 */
-#search_results {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    margin-top: 10px;
+#search-input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
-#results_list {
+#search-results {
     list-style: none;
     padding: 0;
 }
 
-#results_list li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+#search-results li {
+    margin-bottom: 10px;
+}
+
+#search-results li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+#search-results li a:hover {
+    text-decoration: underline;
 }
 
 /* 반응형 디자인 */
