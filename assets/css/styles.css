@@ -236,11 +236,12 @@ footer {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    width: 200px;
 }
 
 #search-results-container {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 5px);
     left: 0;
     right: 0;
     background-color: #fff;
