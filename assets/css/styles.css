@@ -225,13 +225,13 @@ footer {
 
 #search-bar {
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 #searchinput {
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     margin-right: 10px;
 }
 
