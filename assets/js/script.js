@@ -5,15 +5,25 @@ document.getElementById('search_form').addEventListener('submit', function(event
     const resultsList = document.getElementById('results_list');
     resultsList.innerHTML = ''; // 기존 결과를 지움
     const contentElements = document.querySelectorAll('.primary-content *');
-
     let hasResults = false;
+
+    // 기존 하이라이트 제거
+    contentElements.forEach(element => {
+        element.classList.remove('highlight');
+    });
+
+    // 검색어를 포함하는 요소 찾기
     contentElements.forEach(element => {
         if (element.innerText.toLowerCase().includes(query)) {
             hasResults = true;
+            element.classList.add('highlight'); // 요소에 하이라이트 클래스 추가
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = `#${element.id}`; // 해당 요소의 ID를 링크로 사용
+            a.href = `#`;
             a.textContent = `Result for "${query}": ${element.innerText.substring(0, 30)}...`;
+            a.addEventListener('click', () => {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
             li.appendChild(a);
             resultsList.appendChild(li);
         }
