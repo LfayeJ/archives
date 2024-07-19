@@ -56,7 +56,7 @@ h1, h2 {
 .post-header {
  margin: 0vw;
  width: 100%;
- align-items: none;
+ flex-direction: column;
 }
 
 .container {
