@@ -57,6 +57,7 @@ h1, h2 {
  margin: 0vw;
  width: 100%;
  flex-direction: column;
+ text-align: left;
 }
 
 .container {
