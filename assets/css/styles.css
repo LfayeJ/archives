@@ -235,6 +235,7 @@ footer {
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 200px;
+    margin-right: 0.7vw;
 }
 
 #search-results-container {
@@ -324,7 +325,6 @@ footer {
     width: 95vw; 
     height: 9vh;
     border-right: none;
-  
 }
   
 .main-content {
@@ -348,6 +348,7 @@ footer {
 
  header {
     margin-left: 0;
+    width: 95vw;
   }
   
  .side-title  {
