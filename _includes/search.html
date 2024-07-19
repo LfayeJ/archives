@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     searchInput.addEventListener('input', function() {
-        const query = searchInput.value.toLowerCase();
+        const query = searchInput.value.trim().toLowerCase();
         searchResults.innerHTML = '';
 
         if (query) {
