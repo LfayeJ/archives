@@ -266,11 +266,6 @@ button:hover {
     border-bottom: 1px solid #ddd;
 }
 
-/* 검색어 하이라이트 */
-.highlight {
-    background-color: yellow;
-}
-
 /* 반응형 디자인 */
 @media (max-width: 1024px) {
   .additional-side-menu {
