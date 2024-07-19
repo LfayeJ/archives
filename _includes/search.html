@@ -1,11 +1,14 @@
-<div class="secondary-content">
-    <h1>Search</h1>
+<div class="search-container">
     <input type="text" id="search-input" placeholder="Search...">
-    <ul id="search-results"></ul>
+    <div id="search-results-container" class="hidden">
+        <ul id="search-results"></ul>
+    </div>
 </div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('search-input');
+    const searchResultsContainer = document.getElementById('search-results-container');
     const searchResults = document.getElementById('search-results');
 
     const posts = [
@@ -22,19 +25,31 @@ document.addEventListener('DOMContentLoaded', function() {
         const query = searchInput.value.toLowerCase();
         searchResults.innerHTML = '';
 
-        const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
+        if (query) {
+            const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
 
-        if (filteredPosts.length > 0) {
-            filteredPosts.forEach(post => {
-                const li = document.createElement('li');
-                const a = document.createElement('a');
-                a.href = post.url;
-                a.textContent = post.title;
-                li.appendChild(a);
-                searchResults.appendChild(li);
-            });
+            if (filteredPosts.length > 0) {
+                filteredPosts.forEach(post => {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = post.url;
+                    a.textContent = post.title;
+                    li.appendChild(a);
+                    searchResults.appendChild(li);
+                });
+            } else {
+                searchResults.innerHTML = '<li>No results found</li>';
+            }
+
+            searchResultsContainer.classList.remove('hidden');
         } else {
-            searchResults.innerHTML = '<li>No results found</li>';
+            searchResultsContainer.classList.add('hidden');
+        }
+    });
+
+    document.addEventListener('click', function(event) {
+        if (!searchResultsContainer.contains(event.target) && event.target !== searchInput) {
+            searchResultsContainer.classList.add('hidden');
         }
     });
 });
