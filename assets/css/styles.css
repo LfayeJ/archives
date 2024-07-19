@@ -204,14 +204,13 @@ header {
   width: 100%; /* Adjusted width to exclude side-menu and footer */
   max-width: 100%;
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
+  margin-right: 5vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: left;
   border-bottom: 1px solid var(--border-color);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #fff;
 }
 
 header h1 {
