@@ -198,19 +198,6 @@ h1, h2 {
 .h-entry {
   padding: 0px;
 }
-  
-#search-bar {
-  margin: 10px auto;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-}
-
-#search-bar #search-input {
-  width: 200px;
-  border: none;
-  line-height: 44px;
-  outline: none;
-}
 
 header {
   padding: 0.8vw;
@@ -234,6 +221,49 @@ footer {
   height: 100vh; /* 화면 전체 높이 차지 */
   background-color: var(--hover-color);
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#searchinput {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6666ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5555ee;
+}
+
+/* 검색 결과 스타일 */
+#search_results {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+#results_list {
+    list-style: none;
+    padding: 0;
+}
+
+#results_list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 /* 반응형 디자인 */
