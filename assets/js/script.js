@@ -2,7 +2,7 @@
 let posts = [];
 
 // JSON 파일을 로드하여 posts 배열에 저장
-fetch('{{ site.baseurl }}/assets/posts.json')
+fetch('{{ site.baseurl }}/posts.json')
     .then(response => response.json())
     .then(data => {
         posts = data;
