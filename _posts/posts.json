@@ -1,0 +1,6 @@
+---
+permalink: /assets/posts.json
+layout: null
+---
+
+{% include posts.json %}
