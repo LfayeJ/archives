@@ -27,8 +27,12 @@
             <section class="secondary-content">
                 {{ secondary_content }}
             </section>
+            <!-- 검색 결과를 표시할 부분 -->
+            <div id="search_results" style="display:none;">
+                <ul id="results_list"></ul>
         </div>
     </div>
         {% include footer.html %}
+        <script src="{{ site.baseurl }}/assets/js/script.js"></script>
 </body>
 </html>
