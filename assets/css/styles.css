@@ -211,17 +211,20 @@ h1, h2 {
 .archive-grid-item {
     display: block;
     border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 0.8vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: #f9f9f9;
     text-decoration: none;
     color: inherit;
-    text-align: center;
 }
 
 .archive-grid-item h3 {
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 1em;
+    font-weight: 200;
 }
 
 .archive-grid-item:hover {
