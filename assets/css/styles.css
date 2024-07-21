@@ -234,8 +234,7 @@ footer {
 
 #search-input {
     padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid black;
     width: 200px;
     margin-right: 0.8vw;
 }
@@ -278,7 +277,7 @@ footer {
 }
 
 #search-results li a:hover {
-    text-decoration: underline;
+    text-color: #007cb8;
 }
 
 /* 반응형 디자인 */
