@@ -25,6 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const query = searchInput.value.trim().toLowerCase();
         searchResults.innerHTML = '';
 
+        if (query.length >= 2) {
+            const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
+
+
         if (query) {
             const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
 
