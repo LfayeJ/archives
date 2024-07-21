@@ -201,6 +201,24 @@ h1, h2 {
   padding: 0px;
 }
 
+.archive-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.archive-grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.archive-grid-item h3 {
+    margin-top: 0;
+}
+
 header {
   padding: 0.8vw;
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
@@ -349,6 +367,10 @@ footer {
     margin-bottom: 20px;
     border-top: none;
   }
+
+  .archive-grid-container {
+        grid-template-columns: 1fr;
+    }
 
  header {
     margin-left: 0;
