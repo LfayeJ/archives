@@ -6,7 +6,8 @@ title: 아카이브
     <h1>아카이브</h1>
     <div class="archive-grid-container">
         {% for post in site.posts %}
-        <a href="{{ post.url | relative_url }}" class="archive-grid-item">
+          {% if post.published != false %}
+           <a href="{{ post.url | relative_url }}" class="archive-grid-item">
             <h3>{{ post.title }}</h3>
         </a>
         {% endfor %}
