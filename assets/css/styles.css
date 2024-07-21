@@ -203,20 +203,25 @@ h1, h2 {
 
 .archive-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0;
     padding: 20px;
 }
 
 .archive-grid-item {
+    display: block;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     background-color: #f9f9f9;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
 }
 
 .archive-grid-item h3 {
     margin-top: 0;
+    font-size: 1em;
 }
 
 .archive-grid-item:hover {
@@ -309,6 +314,18 @@ footer {
 }
 
 /* 반응형 디자인 */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .archive-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .archive-grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 1024px) {
   .additional-side-menu {
     width: 5vw;
