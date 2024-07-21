@@ -25,11 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const query = searchInput.value.trim().toLowerCase();
         searchResults.innerHTML = '';
 
-        if (query.length >= 2) {
-            const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
-
-
-        if (query) {
+        if (query.length >= 2 && query.replace(/\s/g, '').length > 0) {
             const filteredPosts = posts.filter(post => post.content.toLowerCase().includes(query));
 
             if (filteredPosts.length > 0) {
@@ -42,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     searchResults.appendChild(li);
                 });
             } else {
-                searchResults.innerHTML = '<li>No results found</li>';
+                searchResults.innerHTML = '<li>검색 결과가 없습니다</li>';
             }
 
             searchResultsContainer.classList.remove('hidden');
@@ -56,5 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             searchResultsContainer.classList.add('hidden');
         }
     });
+});
+</script>
 });
 </script>
