@@ -256,9 +256,15 @@ footer {
 
 #search-input {
     padding: 5px;
+    border: none;
     border-bottom: 1px solid black;
     width: 200px;
     margin-right: 0.8vw;
+    outline: none;
+}
+
+#search-input:focus {
+  border-bottom-color: var(--hover-color); /* 포커스 시 하단 테두리 색상 변경 */
 }
 
 #search-results-container {
