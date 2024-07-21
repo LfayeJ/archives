@@ -219,6 +219,10 @@ h1, h2 {
     margin-top: 0;
 }
 
+.archive-grid-item:hover {
+    background-color: #e9e9e9;
+}
+
 header {
   padding: 0.8vw;
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
