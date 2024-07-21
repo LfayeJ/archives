@@ -210,6 +210,7 @@ h1, h2 {
 
 .archive-grid-item {
     display: block;
+    margin-top: 1vh;
     border: 1px solid #ccc;
     padding: 0.8vw;
     text-align: center;
@@ -218,7 +219,7 @@ h1, h2 {
     background-color: #f9f9f9;
     text-decoration: none;
     color: inherit;
-    height: 10vh; /* 모든 그리드 아이템의 높이를 동일하게 유지 */
+    height: 15vh; /* 모든 그리드 아이템의 높이를 동일하게 유지 */
 }
 
 .archive-grid-item h3 {
