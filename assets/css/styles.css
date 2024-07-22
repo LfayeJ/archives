@@ -112,7 +112,7 @@ h1, h2 {
   top: 0;
   right: 0;
   display: flex;
-  width: calc(100% - 97vw);
+  width: 3vw;
   height: 100%;
   padding: 0.5vw;
   flex-direction: column;
