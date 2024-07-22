@@ -25,18 +25,14 @@
                 {{ content }}
             </main>
             <section class="secondary-content">
-           {% if page.secondary_post %}
-                    <p>Secondary post path: {{ page.secondary_post }}</p>
+            {% if page.secondary_post %}
+                {% if page.secondary_post %}
                     {% assign secondary_post_title = page.secondary_post %}
                     {% assign secondary_post = site.posts | where: "title", secondary_post_title | first %}
                     {% if secondary_post %}
                         <h2>{{ secondary_post.title }}</h2>
                         {{ secondary_post.content | markdownify }}
-                    {% else %}
-                        <p>Secondary post not found with title {{ secondary_post_title }}.</p>
                     {% endif %}
-                {% else %}
-                    <p>No secondary post assigned.</p>
                 {% endif %}
             </section>
     </div>
