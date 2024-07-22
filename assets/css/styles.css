@@ -164,7 +164,7 @@ h1, h2 {
   font-weight: bold;
   border-bottom: 1px solid var(--border-color);
   transition: background-color 0.3s, color 0.3s;
-  height: 15vh;
+  min-height: 15vh;
 }
 
 .grid-item:hover, .grid-item a:hover {
