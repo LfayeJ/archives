@@ -66,7 +66,6 @@ h1, h2 {
 
 .container {
   display: flex;
-  min-height: 100vh;
   background-color: #fff;
   box-sizing: border-box;
   overflow: hidden;
@@ -89,7 +88,7 @@ h1, h2 {
 
 .main-content {
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  width: 100%;
+  width: calc(100% - 23vw);
   display: flex;
   padding: 0;
   flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
@@ -240,7 +239,6 @@ h1, h2 {
 header {
   padding: 0.8vw;
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
-  max-width: 100%;
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: left;
   border-bottom: 1px solid var(--border-color);
