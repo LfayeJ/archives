@@ -29,7 +29,7 @@
                     {% assign secondary_post = site.posts | where: "path", page.secondary_post | first %}
                     {% if secondary_post %}
                         <h2>{{ secondary_post.title }}</h2>
-                        {{ secondary_post.content }}
+                        {{ secondary_post.content | markdownify }}
                     {% endif %}
                 {% endif %}
             </section>
