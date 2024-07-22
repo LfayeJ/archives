@@ -25,7 +25,6 @@
                 {{ content }}
             </main>
             <section class="secondary-content">
-            {% if page.secondary_post %}
                 {% if page.secondary_post %}
                     {% assign secondary_post_title = page.secondary_post %}
                     {% assign secondary_post = site.posts | where: "title", secondary_post_title | first %}
