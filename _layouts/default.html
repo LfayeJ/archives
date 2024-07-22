@@ -25,18 +25,19 @@
                 {{ content }}
             </main>
             <section class="secondary-content">
-                {% if page.secondary_post %}
-                    {% assign secondary_post_url = page.secondary_post | relative_url %}
-                    {% assign secondary_post = site.posts | where: "url", secondary_post_url | first %}
-                    {% if secondary_post %}
-                        <h2>{{ secondary_post.title }}</h2>
-                        {{ secondary_post.content | markdownify }}
-                    {% else %}
-                        <p>Secondary post not found.</p>
-                    {% endif %}
-                {% else %}
-                    <p>No secondary post assigned.</p>
-                {% endif %}
+    {% if page.secondary_post %}
+        <p>Secondary post path: {{ page.secondary_post }}</p>
+        {% assign secondary_post_url = page.secondary_post %}
+        {% assign secondary_post = site.posts | where: "path", secondary_post_url | first %}
+        {% if secondary_post %}
+            <h2>{{ secondary_post.title }}</h2>
+            {{ secondary_post.content | markdownify }}
+        {% else %}
+            <p>Secondary post not found at {{ secondary_post_url }}.</p>
+        {% endif %}
+    {% else %}
+        <p>No secondary post assigned.</p>
+    {% endif %}
             </section>
     </div>
         {% include footer.html %}
