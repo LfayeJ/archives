@@ -60,7 +60,7 @@ h1, h2 {
  text-align: center;
 }
 
-.post-title p-name {
+.post-header h1 {
   font-size: 1.7rem;
 }
 
