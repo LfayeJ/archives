@@ -402,7 +402,11 @@ footer {
     margin-bottom: 20px;
     border-top: none;
   }
-
+  
+  .secondary-content {
+    border-top: 1px solid var(--border-color);
+  }
+    
   .archive-grid-container {
         grid-template-columns: 1fr;
     }
