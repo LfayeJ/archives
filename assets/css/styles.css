@@ -195,8 +195,7 @@ h1, h2 {
 }
 
 .secondary-content {
-  width: 27vw; /* Adjust width to fit with the primary content */
-  max-width: 27vw;
+  width: calc(100% - 73vw);
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
   font-size: 0.8rem;
