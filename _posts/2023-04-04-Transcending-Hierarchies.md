@@ -5,6 +5,7 @@ date: 2023-04-04 15:42:00 +0900
 author: 이지원
 categories: archive
 tags: [위계, 동시대미술, 하이퍼링크, 초월된위계들, 민지훈, 양나영]
+secondary_post: "/2023-04-04-Transcending-Hierarchies-EN.md"
 ---
 
 ### 하이퍼링크는 위계를 긍정한다
