@@ -89,7 +89,7 @@ h1, h2 {
 
 .main-content {
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  width: calc(100% - 27vw);
+  width: 100%;
   display: flex;
   padding: 0;
   flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
