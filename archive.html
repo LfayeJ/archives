@@ -6,12 +6,14 @@ title: 아카이브
     <h2>아카이브</h2>
     <div class="archive-grid-container">
         {% for post in site.posts %}
+         {% if post.categories contains "archive" %}
           {% if post.published != false %}
            <a href="{{ post.url | relative_url }}" class="archive-grid-item">
             <h3>{{ post.title }}</h3>
         </a>
-           {% endif %}
-        {% endfor %}
+        {% endif %}
+       {% endif %}
+      {% endfor %}
     </div>
 </body>
 </html>
