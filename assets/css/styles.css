@@ -112,7 +112,7 @@ h1, h2 {
   top: 0;
   right: 0;
   display: flex;
-  width: 3vw;
+  width: calc(100% - 97vw);
   height: 100%;
   padding: 0.5vw;
   flex-direction: column;
@@ -178,7 +178,7 @@ h1, h2 {
 }
 
 .primary-content {
-  width: 50vw;
+  width: calc(100% - 50vw);
   box-sizing: border-box;
 }
 
@@ -195,7 +195,7 @@ h1, h2 {
 }
 
 .secondary-content {
-  width: 27vw;
+  width: calc(100% - 77vw);
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
   font-size: 0.8rem;
@@ -257,7 +257,7 @@ footer {
   position: fixed;
   top: 0;
   right: 0;
-  width: 3vw;
+  width: calc(100% - 97vw);
   height: 100vh; /* 화면 전체 높이 차지 */
   background-color: var(--hover-color);
   overflow-y: auto; /* 내용이 많을 때 스크롤 가능 */
@@ -336,21 +336,17 @@ footer {
 
 @media (max-width: 1024px) {
   .additional-side-menu {
-    width: 5vw;
+    width: calc(100% - 95vw);
   }
   
-   .content, .main-content {
-    width: 95vw;
+  .main-content {
+    width: calc(100% - 5vw);
   }
 
   .secondary-content {
-    width: 25vw;
+    width: calc(100% - 75vw);
     box-sizing: border-box;
   }    
-
- footer {
-  width: 5vw;
-  } 
 }
 
 @media (max-width: 768px) {
@@ -359,7 +355,7 @@ footer {
   }
 
   .side-menu {
-    width: 95vw;
+    width: calc(100% - 5vw);
     height: auto;
     position: relative; /* fixed 위치를 relative로 변경 */
     border-right: none;
@@ -373,13 +369,13 @@ footer {
   }
 
   .grid-container {
-    width: 95vw;
+    width: calc(100% - 5vw);
     display: flex;
     flex-direction: column;
   }
   
   .grid-item {
-    width: 95vw; 
+    width: calc(100% - 5vw);
     height: 9vh;
     border-right: none;
 }
@@ -387,13 +383,13 @@ footer {
 .main-content {
     margin-left: 0; /* side-menu 너비만큼의 여백 제거 */
     margin-right: 0; /* footer 너비만큼의 여백 제거 */
-    width: 95vw;
+    width: calc(100% - 5vw);
     flex-direction: column;
     border-top: none;
   }
 
  .content, .primary-content, .secondary-content {
-    width: 95vw;
+    width: calc(100% - 5vw);
     padding: 10px;
     flex-direction: column;
   }
@@ -409,7 +405,7 @@ footer {
 
  header {
     margin-left: 0;
-    width: 95vw;
+    width: calc(100% - 5vw);
   }
   
  .side-title  {
