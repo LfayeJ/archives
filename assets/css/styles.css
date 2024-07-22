@@ -195,7 +195,7 @@ h1, h2 {
 }
 
 .secondary-content {
-  width: calc(100% - 73vw);
+  width: calc(100% - 70vw);
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
   font-size: 0.8rem;
