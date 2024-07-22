@@ -195,6 +195,7 @@ h1, h2 {
   max-width: 27vw;
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
+  font-size: 0.8rem;
 }
 
 .h-entry {
