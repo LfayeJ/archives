@@ -26,7 +26,8 @@
             </main>
             <section class="secondary-content">
            {% if page.secondary_post %}
-                    {% assign secondary_post = site.posts | where_exp: "post", "post.url == page.secondary_post" | first %}
+                    {% capture secondary_post_url %}{{ page.secondary_post }}{% endcapture %}
+                    {% assign secondary_post = site.posts | where: "url", secondary_post_url | first %}
                     {% if secondary_post %}
                         <h2>{{ secondary_post.title }}</h2>
                         {{ secondary_post.content | markdownify }}
