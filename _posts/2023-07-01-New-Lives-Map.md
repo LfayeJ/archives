@@ -5,6 +5,7 @@ date: 2023-07-01 15:17:00 +0900
 author: 이지원
 categories: archive
 tags: [동시대미술, 홍티아트센터, 이다은, 이동자들, 인덱스, 새로운삶의지도]
+secondary_post: "New, Lives, Map — Da-eun Lee Solo Exhibition"
 ---
 
 2023년 5월 17일부터 31일까지 홍티아트센터에서 이다은 작가의 입주작가 릴레이 개인전 《새로운 삶의 지도 New, Lives, Map》가 진행되었다. 올해 홍티아트센터 단기 입주작가로 선정되어 활동 중인 이다은 작가는, 이번 릴레이 개인전에서 지난 3년간의 프로젝트들을 총망라하여 공개했다. 전시는 크게 \<이동자들 Movers>(2023), \<은유의 변주들 Variations In Metaphor>(2022), 그리고 대표작이라 부를 수 있는 \<인덱스, 성좌 Index, Constellations>(2021)의 세 파트의 영상과 설치 작업으로 나뉘어 구성되었다.
