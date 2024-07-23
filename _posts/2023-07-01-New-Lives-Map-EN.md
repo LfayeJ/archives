@@ -34,6 +34,6 @@ Images can no longer be evidence of someone's existence or the naive belief that
 
 ---
 
-[^1]: To borrow the artist's own words, "the impossibility of approaching reality." Da-eun Lee, *New, Lives, Map*, Exhibition Introduction.
+[^1]: To borrow the artist's own words, "the impossibility of approaching reality." Da-eun Lee, *New, Lives, Map, Exhibition Introduction*.
 [^2]: It is necessary to consider that today's media environment has drastically changed compared to the media sensibility of the 20th century, represented by Nam June Paik's Good Morning, Mr. Orwell (1984) and CNN's live broadcast of the Gulf War (1991). For example, comparing the Gulf War live broadcast of the last century and the current Russia-Ukraine War would highlight these differences. Today, fragmented images of personal truths are spread in raw data units worldwide through networks like Twitter and Telegram, unlike the last century's situation where edited and processed information was broadcasted live in a one-way direction via analog media by major media outlets. Today's live broadcast is thus different in that it combines a chaotic state where truth and falsehood cannot be distinguished.
 [^3]: Susan Sontag, *On Photography* (New York: Anchor Books, 1977), 68.
