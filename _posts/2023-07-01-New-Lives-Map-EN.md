@@ -8,7 +8,7 @@ tags: [contemporary art, Hongti Art Center, Da-eun Lee, Movers, Index, NewLivesM
 published: true
 ---
 
-> May 17-31, 2023, Hongti Art Center
+**May 17-31, 2023, Hongti Art Center**
 
 Da-eun Lee, selected as a short-term resident artist at the Hongti Art Center this year, presented a comprehensive showcase of her projects over the past three years in her solo exhibition relay. The exhibition was divided into three main parts: *Movers* (2023), *Variations in Metaphor* (2022), and her signature work, *Index, Constellations* (2021), featuring video and installation works.
 
