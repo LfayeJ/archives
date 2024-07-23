@@ -433,4 +433,8 @@ footer {
   .primary-content p, .secondary-content p {
     font-size: 0.9rem;
   }
+
+  .post-header h1 {
+    font-size: 1.4rem;
+  }
 }
