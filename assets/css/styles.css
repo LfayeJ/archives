@@ -223,13 +223,13 @@ h1, h2 {
     background-color: #f9f9f9;
     text-decoration: none;
     color: inherit;
-    height: 15vh; /* 모든 그리드 아이템의 높이를 동일하게 유지 */
+    min-height: 15vh; /* 모든 그리드 아이템의 높이를 동일하게 유지 */
 }
 
 .archive-grid-item h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 200;
 }
 
