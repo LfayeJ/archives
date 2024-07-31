@@ -22,10 +22,16 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
+  -ms-overflow-style: none;  /* 인터넷 익스플로러와 Edge에서 스크롤 막대 숨기기 */
+  scrollbar-width: none;  /* Firefox에서 스크롤 막대 숨기기 */
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* 수평 스크롤 방지 */
   box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* 웹킷 브라우저에서 스크롤 막대 숨기기 */
 }
 
 a {
