@@ -253,7 +253,6 @@ h1, h2 {
 header {
   padding: 0.8vw;
   width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
-  height: 8vh;
   margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: left;
   border-bottom: 1px solid var(--border-color);
