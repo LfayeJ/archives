@@ -71,7 +71,6 @@ h1, h2 {
 }
 
 .container {
-  min-height: 100vh;
   display: flex;
   background-color: #fff;
   box-sizing: border-box;
