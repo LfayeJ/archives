@@ -178,7 +178,6 @@ h1, h2 {
 }
 
 .primary-content, .secondary-content {
-    height: 100vh;
     overflow-y: scroll; /* 스크롤 가능하게 설정 */
 }
 
