@@ -177,9 +177,20 @@ h1, h2 {
   font-weight: 200;
 }
 
+.primary-content, .secondary-content {
+    height: 100vh;
+    overflow-y: scroll; /* 스크롤 가능하게 설정 */
+}
+
 .primary-content {
   width: 50vw;
   box-sizing: border-box;
+  -ms-overflow-style: none;  /* 인터넷 익스플로러와 Edge에서 스크롤 막대 숨기기 */
+  scrollbar-width: none;  /* Firefox에서 스크롤 막대 숨기기 */
+}
+
+.primary-content::-webkit-scrollbar, .secondary-content::-webkit-scrollbar {
+    display: none; /* 웹킷 브라우저에서 스크롤 막대 숨기기 */
 }
 
 .content {
@@ -199,6 +210,8 @@ h1, h2 {
   box-sizing: border-box;
   border-left: 1px solid var(--border-color);
   font-size: 0.8rem;
+  -ms-overflow-style: none;  /* 인터넷 익스플로러와 Edge에서 스크롤 막대 숨기기 */
+  scrollbar-width: none;  /* Firefox에서 스크롤 막대 숨기기 */
 }
 
 .h-entry {
