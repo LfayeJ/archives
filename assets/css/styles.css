@@ -393,14 +393,12 @@ footer {
 
   .grid-container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr); /* 수평으로 4칸 정렬 */
   }
   
   .grid-item {
-    width: 100%;
-    height: 9vh;
-    border-right: none;
+    min-height: 10vw; /* 높이를 10vw로 설정 */
+    font-size: 1rem; /* 텍스트 크기 조정 */
 }
 
 .main-content {
