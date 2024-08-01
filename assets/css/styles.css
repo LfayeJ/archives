@@ -82,7 +82,7 @@ h1, h2 {
 }
 
 .side-menu {
-  width: 20vw;
+  width: 15vw;
   border-right: 1px solid var(--border-color);
   position: fixed; /* 화면에 고정 */
   top: 0;
@@ -93,8 +93,8 @@ h1, h2 {
 }
 
 .main-content {
-  margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
-  width: calc(100% - 23vw);
+  margin-left: 15vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
+  width: calc(100% - 18vw);
   display: flex;
   padding: 0;
   flex-direction: row; /* Ensure primary and secondary content are laid out in a row */
@@ -257,8 +257,8 @@ h1, h2 {
 
 header {
   padding: 0.8vw;
-  width: calc(100% - 23vw); /* Adjusted width to exclude side-menu and footer */
-  margin-left: 20vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
+  width: calc(100% - 18vw); /* Adjusted width to exclude side-menu and footer */
+  margin-left: 15vw; /* side-menu의 너비만큼 왼쪽 여백 추가 */
   text-align: left;
   border-bottom: 1px solid var(--border-color);
   box-sizing: border-box;
