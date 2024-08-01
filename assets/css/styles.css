@@ -26,7 +26,7 @@ html, body {
   scrollbar-width: none;  /* Firefox에서 스크롤 막대 숨기기 */
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: hidden;
   box-sizing: border-box;
 }
 
