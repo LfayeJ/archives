@@ -154,7 +154,7 @@ h1, h2 {
 
 .grid-container {
   display: grid;
-  width: 20vw;
+  width: 15vw;
   background-color: var(--hover-color);
 }
 
