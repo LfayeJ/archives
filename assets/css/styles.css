@@ -183,7 +183,7 @@ h1, h2 {
 }
 
 .primary-content, .secondary-content {
-    height: calc(100vw - (1.6vw + 17px)); /* 헤더 높이만큼 뺀 값으로 설정 */
+    height: calc(100vw - (1.6vw + 1.8rem)); /* 헤더 높이만큼 뺀 값으로 설정 */
     overflow-y: scroll; /* 스크롤 가능하게 설정 */
 }
 
