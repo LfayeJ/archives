@@ -219,6 +219,12 @@ h1, h2 {
   scrollbar-width: none;  /* Firefox에서 스크롤 막대 숨기기 */
 }
 
+.secondary-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .h-entry {
   padding: 0px;
 }
