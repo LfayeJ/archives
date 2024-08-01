@@ -8,12 +8,32 @@ title: 아카이브
         {% for post in site.posts %}
          {% if post.categories contains "archive" %}
           {% if post.published != false %}
-           <a href="{{ post.url | relative_url }}" class="archive-grid-item">
+           <a href="{{ post.url | relative_url }}" class="archive-grid-item" data-image="{{ post.image }}">
             <h3>{{ post.title }}</h3>
         </a>
         {% endif %}
        {% endif %}
       {% endfor %}
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const archiveItems = document.querySelectorAll('.archive-grid-item');
+            const secondaryContent = document.querySelector('.secondary-content');
+
+            archiveItems.forEach(item => {
+                item.addEventListener('mouseover', function() {
+                    const imgSrc = item.getAttribute('data-image');
+                    if (imgSrc) {
+                        secondaryContent.innerHTML = `<img src="${imgSrc}" alt="Hover Image" style="max-width: 100%;">`;
+                    }
+                });
+
+                item.addEventListener('mouseout', function() {
+                    secondaryContent.innerHTML = ''; // Clear the image when the mouse leaves
+                });
+            });
+        });
+    </script>
 </body>
 </html>
