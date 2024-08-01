@@ -75,6 +75,7 @@ h1, h2 {
   background-color: #fff;
   box-sizing: border-box;
   overflow: hidden;
+  height: calc(100vw - (1.6vw + 1.8rem)); /* 헤더 높이만큼 뺀 값으로 설정 */
 }
 
 .side-menu, .additional-side-menu {
