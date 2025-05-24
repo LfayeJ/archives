@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Busan Museum of Art, Vision and Perspective 2023: My Young & Sad Day - Review
+title: [Busan Museum of Art, Vision and Perspective 2023: My Young & Sad Day - Review]
 date: 2023-07-20 17:27:00 +0900
 author: Jiwon Lee
 categories: secondary
