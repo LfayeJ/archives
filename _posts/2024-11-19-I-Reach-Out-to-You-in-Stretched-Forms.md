@@ -5,6 +5,7 @@ date: 2024-11-19 15:41:00 +0900
 author: 이지원
 categories: archive
 tags: [동시대미술, 제이무브먼트, 박현성, 섬유, 긴장, 연결, 청년작가]
+secondary_post: Hyunsung Park, I Reach Out to You in Stretched Forms
 ---
 
 
