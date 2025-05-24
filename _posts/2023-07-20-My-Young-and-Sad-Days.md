@@ -5,6 +5,7 @@ date: 2023-07-20 17:27:00 +0900
 author: 이지원
 categories: archive
 tags: [동시대미술, 부산시립미술관, 조정환, 김덕희, 오민욱, 슬픈나의젊은날, 청년작가]
+secondary_post: Busan Museum of Art, Vision and Perspective 2023: My Young & Sad Day - Review
 ---
 
 
