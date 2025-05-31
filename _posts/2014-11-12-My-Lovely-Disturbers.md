@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 이진선 《사랑스런 나의 방해자들》 — 전시 서문"
+title: "이진선 《사랑스런 나의 방해자들》 — 전시 서문"
 date: 2024-11-12 17:27:00 +0900
 author: 이지원
 categories: archive
