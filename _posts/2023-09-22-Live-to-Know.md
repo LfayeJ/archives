@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "살아봐야 아는 것들 — 전시 서문"
+title: "어밍 《살아봐야 아는 것들》 — 전시 서문"
 date: 2023-09-22 13:38:00 +0900
 author: 이지원
 categories: archive
